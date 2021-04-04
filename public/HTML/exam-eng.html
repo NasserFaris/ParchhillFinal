@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+  <!--  required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no,user-scalable=no">
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/fontsicon.css">
+  <link rel="stylesheet" href="assets/css/hover-min.css">
+  <link rel="stylesheet" href="assets/css/animate.min.css">
+  <link rel="stylesheet" href="assets/css/main-reg.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+<section class="sec-Exam">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <div class="alert fade show" role="alert">
+                  <p>You have gone over the recommended time</p> 
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+                <h1>
+                   English
+                </h1>
+            </div>
+            <div class="col-md-12">
+                <svg class="base-timer svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <g class="base-timer circle">
+                      <circle class="base-timer path-elapsed" cx="50" cy="50" r="45" />
+                      <path
+                        :stroke-dasharray="circleDasharray"
+                        class="base-timer path-remaining"
+                        d="M 50, 50 m -45, 0 a 45,45 0 1,0 90,0 a 45,45 0 1,0 -90,0"/>
+                    </g>
+                  </svg>
+                  <div class="question-count">
+                      <h3>Question</h3>
+                      <p class="count">13 of 24</p>
+                  </div>
+                  <h2 class="title">
+                    Which word best completes this sentence? 
+                  </h2>
+                  <p class="question">
+                    The dog sat on the ... 
+                  </p>
+            </div>
+            <div class="col-md-12 ">
+                <div class="choose-list">
+                    <form>
+                        <ul>
+                            <li>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" class="custom-control-input" id="01" name="radio-stacked" required>
+                                    <label class="custom-control-label" for="01">mat</label>
+                                  </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" class="custom-control-input" id="02" name="radio-stacked" required>
+                                    <label class="custom-control-label" for="02">chat</label>
+                                    </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" class="custom-control-input" id="03" name="radio-stacked" required>
+                                    <label class="custom-control-label" for="03">twist</label>
+                                    </div>
+                            </li>
+                            
+                        </ul>
+                        <div class="link">
+                            <button class="btn btn-lg bg-yellow" type="submit">PREVIOUS QUESTION</button>
+                            <button class="btn btn-lg bg-green" type="submit">NEXT QUESTION</button>
+                       </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="assets/js/jquery-3.4.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/script.js"></script> 
+</body>
+</html>
+
+

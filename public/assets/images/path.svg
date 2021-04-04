@@ -1,0 +1,13 @@
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="450" height="330" viewBox="0 0 1510.993 937.716">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: url(#pattern);
+                    }
+                  </style>
+                  <pattern id="pattern" width="1" height="1" viewBox="-110.321 17.761 1566.087 971.907">
+                    <image preserveAspectRatio="xMidYMid slice" width="1510.993" height="1007.428" xlink:href="/assets/images/recevie.jpg"/>
+                  </pattern>
+                </defs>
+                <path id="Path_36886" data-name="Path 36886" class="cls-1" d="M232.483,1.565C380.9-.367,1509.018,0,1509.018,0s-141.731,309.381-399.8,549.062S404.086,1035.55,126.85,898.288,84.069,3.5,232.483,1.565Z" transform="translate(1.975 0.028)"/>
+                </svg>

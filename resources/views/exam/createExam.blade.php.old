@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+<meta name="csrf-token" content="{{csrf_token()}}">
+<title>Laravel</title>
+    <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div id='app'>
+            <div class="content-header">
+                <div class="container-fluid">
+                  
+                </div><!-- /.container-fluid -->
+              </div>
+              <div class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="card">
+                                <div class="card-header" style="text-align: center">
+                                     {{-- {{ $Question}} --}}
+                                </div>
+                                    <div class="card-body " style="text-align: center">   
+                                        <div id="aaa">
+                                        <assessment :examquestion =  "{{$Question}}"  ></assessment>
+                                        </div> 
+                                        <?php  $i = 1 ?>
+                                        
+                                        {{-- @foreach ($Question as $item) 
+                                        <section id= "section_{{$i}}"  class="section_question" > 
+                                            {{-- {!! Form::open(['action' => ['ExamController@update', $item->exam_id], 'id'=> "form_$i"]) !!}                                           --}}
+                                            {{-- {{ Form::label($item->question , null, ['class' => 'control-label'])  }} --}}
+                                            <br>
+                                             {{-- {{ Form::radio("radio_$i" , $item->answer1, '', ['class' => "control-label ", 'question_id'=> $item->question_id, 'exam_id'=> $item->exam_id ]) }} {{$item->answer1}} --}}
+                                             {{-- {{ Form::radio("radio_$i" , $item->answer2, '', ['class' => "control-label", 'question_id'=> $item->question_id, 'exam_id'=> $item->exam_id ]) }} {{$item->answer2}} --}}
+                                             {{-- {{ Form::radio("radio_$i" , $item->answer3, '', ['class' => "control-label", 'question_id'=> $item->question_id, 'exam_id'=> $item->exam_id ]) }} {{$item->answer3}} --}}
+                                             {{-- {{ Form::hidden('_method', 'PUT')}} --}}
+                                        </section>
+                                        <?php  $i++ ?>
+                                        {{-- @endforeach  --}}
+                                         {{-- {{ Form::bsSubmit('Submit', ['class'=>'btn btn-primary']) }}                        --}}
+                                    </div>
+                                    <div class="card-footer" style="text-align: center">
+                                        <button type="button"
+                                            onclick="previousQuestion()"  
+                                            id = "previous_btn"
+                                        >Previous Question</button>
+                                        <button type="button"
+                                            onclick="nextQuestion()" id="next_btn">Next Question</button>
+                                        <button type="button" onclick="Finish()" id="finish_btn">Finish</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+        </div>
+    </div>
+    {{-- ../public/js/app.js --}}
+    <script src="  {{ URL::asset('js/app.js') }}"></script>
+    <script>
+
+
+
+         var $qustion_count=  {{count($Question)}} ;
+        var $question_numer= 0;
+        var i = 1;
+        $( document ).ready(function() {            
+            $('.section_question').hide();
+            $("#section_"+i).show();
+            $('#finish_btn').hide();
+            $('#previous_btn').hide();
+        }); 
+        function nextQuestion(){        
+            var quAnswer = $("input[name='radio_"+i+"']:checked").val();
+            var qId      = $("input[name='radio_"+i+"']:checked").attr('question_id');
+            var exam_id  = $("input[name='radio_"+i+"']:checked").attr('exam_id');
+            $.ajax({
+                method: "PUT",                  
+               url:'{{ url('/') }}/exam/updateAjax',
+               data: {  _token : '<?php echo csrf_token() ?>' ,
+                        exam_id         :   exam_id, 
+                        question_id     : qId, 
+                        question_answer : quAnswer, 
+                        finsh_status    : false
+                    },
+               success:function(data) {
+                
+               }
+            });
+            i++;
+            if(i == $qustion_count){
+                $('#next_btn').hide();
+                $('#finish_btn').show();                
+            }
+            $('.section_question').hide();
+            $("#section_"+i).show();
+            $('#previous_btn').show();
+            
+        }
+        function previousQuestion(){
+            i--;
+            if(i == 1){
+                $('#previous_btn').hide();
+            }
+            $('.section_question').hide();
+            $("#section_"+i).show();
+
+            $('#finish_btn').hide();
+            $('#next_btn').show();
+        }
+        function Finish(){
+            // nextQuestion();
+            var exam_id = $("input[name='radio_1']:checked").attr('exam_id');
+            var quAnswer = $("input[name='radio_"+i+"']:checked").val();
+            var qId      = $("input[name='radio_"+i+"']:checked").attr('question_id');
+            var exam_id  = $("input[name='radio_"+i+"']:checked").attr('exam_id');
+        
+
+
+            $.ajax({
+                method: "PUT",                  
+               url:'{{ url('/') }}/exam/updateAjax',
+               data: {  _token : '<?php echo csrf_token() ?>' ,
+                        exam_id         : exam_id, 
+                        question_id     : qId, 
+                        question_answer : quAnswer, 
+                        finsh_status    : true
+                    },
+               success:function(data) {
+                
+               }
+            });
+
+
+
+
+        }
+
+    </script>
+</body>
+</html>

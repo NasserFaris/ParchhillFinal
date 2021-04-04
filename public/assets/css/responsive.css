@@ -1,0 +1,4475 @@
+/*============================================
+
+[Table of content]
+
+1. Extra large container size
+2. Large devices (less than 1220px)
+3. Large tablets (less than  992px)
+4. Medium devices (less than  768px)
+5. Small devices (less than  576px)
+
+============================================*/
+
+@media (max-width: 1920px) and (min-width: 1601px)   { 
+    .navbar-nav .nav-item .nav-link{
+      font-size: 20px;
+      padding: 10px 20px;
+    }
+    .navbar-nav .bar-login .nav-link{
+      margin: 0 20px;
+    }
+    .navbar-nav .bar-join .nav-link{
+      margin: 0 40px 0 0;
+    }
+    .banner-home{
+      max-height: 650px;
+    }
+    .banner-heading h1{
+      margin: 100px 0px 0px 112px;
+    }
+    .sec-receive .bg-sec{
+      background-size: 75% 122%;
+    }
+    .sec-receive .part-one h1{
+      font-size: 44px;
+    }
+    .sec-receive .heading h1{
+      font-size: 50px;
+    }
+    .sec-receive .sec-bottom h1{
+      font-size: 46px;
+    }
+    .sec-learn2 .content .text-title p{
+      font-size: 20px;
+    }
+    .sec-learn2 .content .text-title h1{
+      font-size: 26px;
+    }
+    .sec-learn2 .content .text-title .image h1{
+      font-size: 65px;
+    }
+    .sec-support .heading h1{
+      font-size: 50px;
+      margin: 20px 0px 0px 112px;
+    }
+    .sec-support .bg-sec{
+      background-size: 60% 104%;
+    }
+    .online-banner .banner-heading h1{
+      font-size: 36px;
+    }
+    .online-banner .banner{
+      padding: 80px 0;
+    }
+    .tuition-banner .banner{
+      padding: 80px 0;
+    }
+    .choose-us-banner .banner{
+      padding: 80px 0;
+    }
+    .sec-story .story-flow {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 810px;
+      max-height: 900px;
+      padding: 40px;
+    }
+    .sec-story .story-flow .tringle-left p {
+      top: 110px;
+      right: 0px;
+      left: 55px;
+      bottom: 0;
+  }
+  .sec-story .story-flow .tringle-right p {
+    top: 111px;
+    right: 0;
+    bottom: 0;
+    left: 115px;
+}
+.sec-story .story-flow .tringle-top p{
+  top: -125px;
+}
+.sec-story .story-flow .heading {
+  padding: 80px 0;
+  margin: 0px 0 0 0;
+}
+.sec-our-founder .bg-white .part-one ol li {
+  padding: 0 15px;
+  text-align: left;
+}
+.sec-mission .part-two{
+  background-position: center top;
+  padding: 70px 0;
+}
+.footer-top .bg-sec .part-two{
+  padding: 80px 0;
+}
+
+}
+
+/* 2. Large devices (less than 1200px) */
+@media (max-width: 1200px) {
+  .topheader h1 {
+    font-size: 18px;
+    line-height: 18px;
+}
+.navbar-nav .nav-item .nav-link{
+  font-size: 16px;
+  padding: 10px 8px;
+}
+.navbar-nav .bar-login .nav-link{
+  margin: 0 8px;
+}
+.navbar-nav .bar-join .nav-link{
+  height: 45px;
+  line-height: 26px;
+}
+.navbar-light .navbar-brand img{
+  width: 170px;
+}
+.btmheader .bg-btmheader{
+  margin: 0;
+}
+.banner-heading{
+  padding: 50px 0px 0px 0px;
+}
+.banner-heading h1 {
+  font-size: 54px;
+  line-height: 55px;
+  margin: 36px auto 0px auto;
+}
+.banner-start {
+  margin: 50px 0px 100px 0 ;
+}
+.banner-start a {
+  font-size: 24px;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.sec-receive .part-one h1{
+  font-size: 34px;
+}
+.sec-receive .bg-sec{
+  background-size: cover;
+}
+.sec-receive .heading h1{
+  font-size: 36px;
+  line-height: 40px;
+  margin: 110px 10px 0px 10px;
+}
+.sec-receive .sec-bottom h1{
+  font-size: 36px;
+}
+.sec-year{
+  margin: 0;
+}
+.sec-year .part-one .content-1 ul, .sec-year .part-one .content-2 ul{
+  text-align: left;
+}
+.sec-year .part-one .content-1 ul li a{
+  font-size: 75px;
+  line-height: 70px;
+
+}
+.sec-year .part-one .content-1 ul li a span{
+  font-size: 24px;
+  line-height: 26px;
+}
+.sec-year .part-one .content-1 ul li{
+  min-width: 120px;
+}
+.sec-year .part-one .content-2 ul li{
+  width: 100px;
+  height: 100px;
+  min-height: 100px;
+  padding: 24px 0;
+}
+.sec-year .part-one .content-2 ul li a{
+  align-items: center;
+  font-size: 22px;
+  line-height: 24px;
+  margin: 0;
+}
+.sec-year .part-two h1{
+  font-size: 30px;
+}
+.sec-year .part-two a{
+  font-size: 24px;
+  padding: 10px 15px;
+  margin: 15px 20px;
+}
+.sec-year .part-thr ul{
+  padding: 10px 0;
+}
+.sec-year .part-thr ul li{
+  margin: 10px;
+}
+.sec-year .part-thr ul li a{
+  display: block;
+  min-width: 150px;
+  padding: 15px 18px;
+  font-size: 24px;
+}
+.sec-learn{
+  padding: 30px 0;
+}
+.sec-learn2{
+  padding: 20px 0;
+}
+.sec-learn2 .content{
+  padding: 40px 40px ;
+  margin: 10px 40px;
+}
+.sec-learn .part-one h1{
+  font-size: 34px;
+  margin: 10px 0;
+}
+.sec-learn .part-one p{
+  font-size: 20px;
+
+}
+.sec-learn .part-one a, .sec-learn2 .content a{
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+.sec-learn2 .content .text-title{
+  margin: 20px 0;
+}
+.sec-learn2 .content .text-title .image{
+  display: block;
+  margin: auto;
+  max-width: 400px;
+}
+.sec-learn2 .content .text-title .image h1{
+  font-size: 32px;
+  top: 30%;
+}
+
+.sec-support .bg-sec{
+  background-size: cover;
+  background-position: 10% 0%;
+}
+.sec-support .heading h1{
+  font-size: 36px;
+  line-height: 36px;
+  margin: 130px 10px 0px 10px;
+}
+.sec-support .sec-bottom h1{
+  font-size: 30px;
+}
+.sec-our-mem{
+  background-size: 100% 70%;
+  padding: 30px 0;
+}
+.sec-our-mem .content h1{
+  font-size: 34px;
+  text-align: center;
+}
+.sec-our-mem .content{
+  margin: 15px 0;
+  text-align: center;
+}
+.sec-our-mem .content a{
+  font-size: 24px;
+  padding: 10px 60px;
+}
+.btmheader .breadcrum .bread-title h1{
+  font-size: 34px;
+}
+.btmheader .breadcrum .bread-list li , .btmheader .breadcrum .bread-list li a{
+  font-size: 12px;
+}
+.sec-become-member .part-one h1{
+  font-size: 28px;
+}
+.sec-become-member .part-two .list{
+  padding: 15px 40px;
+}
+.sec-become-member .part-two .list li{
+  font-size: 22px;
+}
+.sec-become-member .link a{
+  font-size: 20px;
+  padding: 15px 20px;
+}
+.sec-become-member .part-thr form .form-group label{
+  text-align: left;
+}
+.sec-become-member .part-thr form button{
+  font-size: 20px;
+  margin: 10px 0;
+}
+.sec-level .part-two .card .card-body .card-title{
+  font-size: 22px;
+  padding: 10px ;
+}
+.sec-level .part-two .card .card-body .card-text{
+  font-size: 14px;
+}
+.sec-level .part-two .card .card-body button{
+  font-size: 14px;
+}
+.sec-level .part-two .card .card-body ul a, .sec-level .part-two .card .card-body ul span{
+  font-size: 18px;
+}
+.sec-level .part-two .card .card-body ul li{
+  margin:2px 4px 6px 4px ; 
+}
+.sec-find-1 .part-one h1{
+  font-size: 26px;
+}
+.sec-find-1 form .form-group label{
+  font-size: 20px;
+}
+.sec-find-1 form .form-group .form-control{
+  height: 55px;
+  font-size: 20px;
+}
+.sec-find-1 .part-two h1{
+  vertical-align: middle;
+}
+.sec-find-1 form .form-group button{
+  font-size: 24px;
+  padding: 6px 15px;
+  margin: 0px;
+}
+.sec-find-1 form .form-group{
+  margin: 10px auto 20px auto;
+}
+.sec-find-1 .part-two a{
+  font-size: 22px;
+  padding: 10px 20px;
+  margin: 5px 0;
+}
+.sec-find-2 .part-one h1, .sec-find-2 .part-two h1{
+  font-size: 54px;
+  margin: 15px 4px;
+}
+.sec-find-2 .part-one a, .sec-find-2 .part-two a{
+  font-size: 22px;
+  padding: 10px 20px;
+  min-width: fit-content;
+  margin: 10px;
+}
+.policies .heading{
+  padding: 20px 0;
+}
+.policies .heading h1{
+  font-size: 24px;
+}
+.policies .dsc{
+  padding: 20px 30px;
+  margin: 0 0 20px 0;
+}
+.policies .dsc p{
+  font-size: 20px;
+}
+.policies .link a{
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 10px;
+  min-width: 280px;
+}
+.careers-banner .banner-title h1{
+  font-size: 28px;
+}
+.careers-banner .banner-dsc{
+  margin: 10px 0;
+}
+.careers-banner .banner-dsc p{
+
+  font-size: 22px;
+
+
+}
+.careers-banner .banner{
+  background-position: 20% 100%;
+  padding: 100px 0px !important;
+}
+.sec-joinus .part-two .content .title{
+  margin: 20px 0 28px 0;
+}
+.sec-joinus .part-one .heading h1{
+  font-size: 36px;
+}
+.sec-joinus .part-two{
+  margin: 0;
+}
+.sec-joinus .part-two .content{
+  padding: 20px 24px;
+}
+.sec-joinus .part-two .content .title h1{
+  font-size: 28px;
+}
+.sec-joinus .part-two .content .title p{
+  font-size: 20px;
+}
+.sec-joinus .part-two .content .sub-title h1{
+  font-size: 24px;
+}
+.sec-joinus .part-two .content .sub-title {
+  margin: 10px 0 24px 0;
+}
+.sec-joinus .part-two .content ul.list li{
+  font-size: 24px;
+}
+.sec-joinus .part-two .content .link a, .sec-joinus .part-thr .link a{
+  font-size: 22px;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+.sec-joinus .part-thr .heading h1{
+  font-size: 28px;
+}
+.sec-joinus .part-thr .box{
+  margin: 10px ;
+  padding: 20px;
+}
+.sec-joinus .part-thr .box h2 {
+  font-size: 22px;
+}
+.sec-joinus .part-thr .dsc{
+  padding: 20px 15px;
+  margin: 20px 15px;
+}
+.sec-joinus .part-thr .dsc p{
+  font-size: 18px;
+  line-height: 26px;
+}
+.sec-joinus .part-two .content .link, .sec-joinus .part-thr .link{
+  margin: 0;
+}
+.sec-level .part-one .title h3{
+  display: inline-flex;
+  font-size: 22px;
+  min-height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+.sec-exprt-train .content{
+  padding: 30px 15px;
+}
+.sec-exprt-train .content .heading h1{
+  font-size: 24px;
+}
+.sec-exprt-train .content .sub-heading{
+  padding: 15px;
+  margin: 20px;
+}
+.sec-exprt-train .content .title{
+  margin: 30px 0 0 0;
+}
+.sec-exprt-train .content .sub-heading h1{
+  font-size: 22px;
+}
+.sec-exprt-train .content .title h1{
+  font-size: 54px;
+  line-height: 43px;
+}
+.sec-exprt-train .content .dsc{
+  padding: 10px 0px;
+  margin: 0 20px;
+}
+.sec-exprt-train .content .dsc p{
+  font-size: 22px;
+  font-size: 22px;
+}
+.sec-exprt-train .content a{
+  font-size: 22px; 
+}
+.sec-mission .part-one .heading h1{
+  font-size: 24px;
+  line-height: 30px;
+}
+.sec-mission .part-one .text{
+  padding: 8px 30px;
+}
+.sec-mission .part-one .text p {
+  font-size: 20px;
+  line-height: 26px;
+}
+.sec-mission .part-two{
+  padding: 90px 0;
+  background-position: 22% 100%;
+}
+.sec-mission .part-one a{
+  font-size: 22px;
+  padding: 10px 30px;
+  margin: 10px 0px;
+}
+.sec-mission .part-two .heading h1{
+  font-size: 28px;
+  line-height: 30px;
+  text-shadow: 0px 1px 2px #fff;
+}
+.sec-mission .part-two .dsc{
+  padding: 20px;
+}
+.sec-mission .part-thr{
+  margin: 20px 0;
+}
+.sec-mission .part-two .dsc p{
+  font-size: 20px;
+  line-height: 26px;
+}
+.sec-mission .part-two .dsc{
+  background: #0b4c41a3;
+
+}
+.sec-mission .part-thr a{
+  font-size: 22px;
+  padding: 10px 20px;
+  margin: 6px 0px 40px 0;
+}
+.sec-mission .part-thr h2{
+  font-size: 24px;
+  line-height: 24px;
+}
+.btmheader .breadcrum .bread-title h1 span::after {
+  position: absolute;
+  width: 40px;
+  height: 79px;
+  top: 0px;
+}
+.online-banner .banner{
+  padding: 100px 0px;
+  background-position: 92% 0%;
+}
+.online-banner .banner-heading h1{
+  font-size: 30px;
+  text-shadow: 1px 0px 2px #ffc324;
+  line-height: 36px;
+}
+.online-banner .banner-dsc{
+  margin: 30px 2%;
+}
+.online-banner .banner-dsc p{
+  background: #f3c629bf;
+  padding: 30px ;
+  border-radius: 5px;
+  font-size: 24px;
+  box-shadow: 1px 0px 20px #00000075;
+}
+.sec-plan .part-one .title h1, .sec-plan .part-two .title h1{
+  font-size: 50px;
+}
+.sec-plan .part-one .sub-title h1, .sec-plan .part-two .sub-title h1{
+  font-size: 24px;
+}
+.sec-plan .part-two .title h1{
+  line-height: 40px;
+}
+.sec-plan .part-thr .full-height{
+  height: calc(100% - 60px);
+}
+.sec-plan .part-thr .card .card-text{
+  min-height: 300px;
+}
+.sec-plan .part-thr{
+  margin: 15px 5px;
+}
+.sec-plan .part-thr .card .card-title{
+  font-size: 20px;
+  margin: 0 0 4px 0;
+}
+.sec-plan .part-thr .card .card-text p{
+  font-size: 18px;
+}
+.sec-plan .part-thr .card .card-text ul li.price{
+  font-size: 28px;
+}
+.sec-plan .part-thr .card .card-body{
+  margin: 0 10px;
+}
+.sec-plan .part-thr .card .card-body .trans-mobile{
+  display: none;
+}
+.sec-plan .part-thr a{
+  font-size: 20px;
+  padding: 4px 10px;
+  margin: 10px 5px;
+}
+.sec-plan table tbody tr th, .sec-plan table tbody tr td{
+  padding: 5px 8px;
+}
+.sec-plan table tbody tr th{
+  font-size: 16px;
+  white-space: break-spaces;
+}
+.sec-plan table tbody tr th a{
+  font-size: 14px;
+  line-height: 14px;
+}
+.sec-plan table tbody tr td img{
+  width: 24px;
+}
+.sec-plan table tfoot tr td{
+  padding: 0px;
+}
+.sec-plan table tfoot tr td a{
+  font-size: 18px;
+  padding: 8px 10px;
+  margin:0;
+}
+.sec-essen-plan .title h1 , .sec-adv-plan .title h1 , .sec-cmplt-plan .title h1 , .sec-find-more .heading h1{
+  font-size: 30px;
+}
+.sec-essen-plan .content .row , .sec-adv-plan .content .row , .sec-cmplt-plan .content .row{
+  padding: 0px;
+}
+.sec-essen-plan .content .icon , .sec-adv-plan .content .icon , .sec-cmplt-plan .content .icon{
+  min-height: 100px;
+}
+.sec-essen-plan .content .icon img , .sec-adv-plan .content .icon img{
+  width: 50px;
+}
+.sec-cmplt-plan .content .icon img{
+  width: 50px;
+}
+.sec-essen-plan .content .title , .sec-adv-plan .content .title , .sec-cmplt-plan .content .title{
+  padding: 8px;
+  min-height: 50px;
+}
+.sec-essen-plan .content .title h3 , .sec-adv-plan .content .title h3 , .sec-cmplt-plan .content .title h3{
+  font-size: 18px;
+  margin: 0;
+}
+.sec-find-more .link a{
+  font-size: 22px;
+  padding: 10px 15px;
+  display: inline-block;
+  min-width: 230px;
+}
+.sec-find-more .sec-img{
+  background-position: 84% 100%;
+}
+.sec-find-more .ask-qus .heading{
+  padding: 20px 0;
+}
+.sec-find-more .ask-qus .heading h1{
+  font-size: 30px;
+}
+.sec-find-more .ask-qus .content{
+  padding: 10px 0;
+  margin: 10px 0;
+  min-height: 100px;
+
+}
+.sec-find-more .ask-qus .content h3{
+  font-size: 20px;
+}
+.sec-find-more .ask-qus .btm-heading{
+  padding: 20px 0;
+  margin: 20px 0;
+}
+.sec-find-more .ask-qus .btm-heading h1{
+  font-size: 30px;
+}
+.sec-find-more .link a{
+  font-size: 20px;
+  min-width: fit-content;
+}
+.tuition-banner .banner{
+  padding: 80px 0;
+  background-position: 0% 100%;
+}
+.tuition-banner .banner-dsc p{
+  background: #f3c629bf;
+  font-size: 20px;
+  box-shadow: 1px 0px 20px #00000075;
+}
+.sec-choose .part-one .title h1 , .sec-help .heading h1{
+  font-size: 34px;
+}
+.sec-choose .part-two .title h1{
+  font-size: 55px;
+  line-height: 45px;
+}
+.sec-choose .part-two .dsc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  min-height: 110px;
+}
+.sec-choose .part-two .dsc p{
+  font-size: 22px;
+  line-height: 26px;
+  padding: 0px 30px;
+}
+.sec-choose .part-two a{
+  font-size: 20px;
+  padding: 10px 20px;
+  margin:10px 0px 30px 0px;
+}
+.sec-choose .part-thr .title{
+  padding: 15px 10px;
+}
+.sec-choose .part-thr .title h1{
+  font-size: 22px;
+  line-height: 26px;
+}
+.sec-choose .part-thr .content{
+  padding: 10px;
+  margin: 15px 0px;
+  min-height: fit-content;
+}
+.sec-choose .part-thr .content .price{
+  font-size: 40px;
+}
+.sec-choose .part-thr .content p{
+  font-size: 20px;
+}
+.sec-help .content{
+  padding: 20px;
+}
+.sec-help .content p{
+  font-size: 20px;
+}
+.sec-help .content ul{
+  padding: 10px 50px;
+}
+.sec-help .content ul li{
+  font-size: 18px;
+  line-height: 22px;
+}
+.sec-help .box{
+  margin: 20px 0px;
+  padding: 10px 15px;
+}
+.sec-help .box .content{
+  padding: 10px;
+}
+.sec-help .box .content p{
+  font-size: 24px;
+}
+.sec-help .box .content .num{
+  font-size: 50px;
+}
+.sec-question .heading{
+  margin: 20px 0;
+}
+.sec-question .heading h1{
+  font-size: 28px;
+  line-height: 36px;
+}
+.sec-question .content .ques{
+  padding: 15px 20px;
+  min-height: fit-content;
+}
+.sec-question .content .ques h2{
+  font-size: 20px;
+}
+.sec-question .content .link a{
+  font-size: 16px;
+  padding: 8px 15px;
+}
+.sec-question .content .link{
+  margin: 10px 0;
+}
+.sec-question .dsc{
+  padding: 10px 20px;
+}
+.sec-question .dsc p{
+  font-size: 20px;
+}
+.sec-question a.bg-red{
+  font-size: 22px;
+  padding: 8px 15px;
+}
+.sec-volunteer .sec-img{
+  height: 450px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+}
+.sec-volunteer .sec-img h1{
+  font-size: 48px;
+}
+.sec-volunteer .sec-img h1{
+  display: inline-block;
+}
+.sec-volunteer .text-1, .sec-volunteer .text-2{
+  margin: 18px 0;
+}
+.sec-volunteer .link{
+  padding: 30px 80px;
+}
+.sec-volunteer .text-1 p, .sec-volunteer .text-2 p{
+  font-size: 24px;
+}
+.sec-volunteer .bg-green h1, .sec-volunteer .bg-green h2{
+  font-size: 30px;
+}
+.sec-volunteer .link a{
+  font-size: 20px;
+  padding: 8px 6px;
+}
+.sec-blog .heading{
+  padding: 10px 20px;
+}
+.sec-blog .heading h1{
+  font-size: 26px;
+}
+.sec-blog .dsc{
+  padding: 20px;
+  margin: 15px 0 ;
+}
+.sec-blog .dsc p{
+  font-size: 20px;
+}
+.sec-blog .link a , .sec-consul .part-one a{
+  display: inline-block;
+  font-size: 22px;
+  padding: 8px 20px;
+  margin: 10px 0;
+}
+.sec-blog .card{
+  padding: 10px 20px;
+  margin: 20px 4px;
+}
+.sec-blog .card .card-body .card-title{
+  font-size: 18px;
+
+}
+.sec-blog .card .card-body .card-date , .sec-blog .card .card-body .card-text{
+  font-size: 16px;
+  margin: 4px 0;
+}
+.sec-blog .card .card-footer a{
+  font-size: 14px;
+  padding: 6px 15px;
+}
+.sec-blog .card .card-footer{
+  margin-bottom: -36px;
+}
+.sec-blog .social li{
+  margin: 8px 4px;
+}
+.sec-blog .social li a{
+  font-size: 36px;
+}
+.sec-consul .part-one h1{
+  font-size: 30px;
+  margin: 15px 4px;
+}
+.sec-consul .part-one p{
+  font-size: 20px;
+  margin: 14px 4px;
+}
+.sec-ph-tv .heading{
+  padding: 10px 2px;
+}
+.sec-ph-tv .ph-video::after{
+  width: 40px;
+  height: 50px;
+}
+.sec-ph-tv .heading h1{
+  font-size: 26px;
+}
+.sec-ph-tv .text{
+  margin: 35px 0 6px 0;
+}
+.sec-ph-tv .text p{
+  font-size: 16px;
+}
+.sec-faq .part-one .title h1{
+  font-size: 30px;
+}
+.sec-faq .part-one .sub-title h2{
+  font-size: 24px;
+}
+.sec-faq .part-one .tabs-list ul{
+  padding: 20px 20px;
+  text-align: center;
+}
+.sec-faq .part-one .tabs-list ul li a{
+  font-size: 20px;
+  padding: 30px 20px;
+  min-width: fit-content;
+}
+.sec-faq .tab-content .bg-green .heading{
+  padding: 10px;
+  
+}
+.sec-faq .tab-content .bg-green{
+  margin: 20px 0;
+}
+.sec-faq .tab-content .bg-green .heading h3{
+  font-size: 28px;
+  line-height: 28px;
+  margin: 10px 19px;
+}
+.sec-faq .tab-content .content .heading h1{
+  font-size: 28px;
+}
+.sec-faq .tab-content .content .card .card-header{
+  font-size: 24px;
+  padding: 15px 20px;
+}
+.sec-faq .tab-content .content .card .card-body{
+  padding: 10px 30px;
+}
+.sec-faq .tab-content .content .card .card-text{
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.sec-faq .tab-content .content .link{
+  text-align: center;
+  margin: 0 0 30px 0 ;
+}
+.sec-faq .tab-content .content .link a{
+  font-size: 20px;
+  padding: 8px 20px;
+}
+.sec-faq .tab-content .content .heading{
+  margin: 30px 0;
+}
+.sec-faq .tab-content .content .card .card-body ol{
+  padding:  0 15px;
+  text-align: left;
+}
+.choose-us-banner .banner{
+  background-position: 85% 100%;
+  padding: 100px 0;
+}
+.choose-us-banner .banner-dsc{
+  margin: 40px auto;
+}
+.choose-us-banner .banner-dsc p{
+  font-size: 22px;
+}
+.sec-info .bg-green{
+  padding: 30px;
+}
+.sec-info .part-one{
+  padding: 30px 0;
+}
+.sec-info .part-one ul.list-trian li{
+  width: 160px;
+  height: 145px;
+  margin: 0px -36px;
+}
+.sec-info .part-one ul.list-trian li p{
+  font-size: 18px;
+  bottom: 0px;
+}
+.sec-info .part-one ul.list-info{
+  padding: 0 0px 0 60px;
+}
+.sec-info .part-one ul.list-info li{
+  font-size: 20px;
+  line-height: 26px;
+}
+.sec-info .part-two h1{
+  font-size: 28px;
+}
+.sec-info .part-thr .title h1{
+  font-size: 36px;
+}
+.sec-info .part-thr .bg-sec{
+  background-position: center bottom;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 380px;
+}
+.sec-info .part-thr .bg-sec h1{
+  font-size: 46px;
+  text-shadow: 1px 1px 4px #0b4c41;
+}
+.sec-story .part-one .heading h1{
+  font-size: 38px;
+}
+.sec-story .dsc{
+  padding: 15px 25px;
+}
+.sec-story .dsc p{
+  font-size: 20px;
+}
+.sec-story .history{
+  margin: 20px 0;
+}
+.sec-story .story-flow{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 30px 0;
+}
+.sec-story .story-flow .heading{
+  margin: 0;
+}
+.sec-story .story-flow .heading h1{
+  font-size: 30px;
+}
+.sec-story .story-flow .tringle-top p, .sec-story .story-flow .tringle-right p, .sec-story .story-flow .tringle-btm p, .sec-story .story-flow .tringle-left p{
+  font-size: 16px;
+}
+.sec-story .story-flow .tringle-top p{
+  top: -98px;
+  white-space: pre-line;
+  left: -15px;
+}
+.sec-story .story-flow .tringle-btm p{
+  top: 45px;
+  white-space: pre-line;
+}
+.sec-story .story-flow .tringle-right p{
+  top: 53px;
+  white-space: pre-line;
+  right: 11px;
+}
+.sec-story .story-flow .tringle-left p{
+  top: 55px;
+  right: 0;
+  left: 88px;
+  white-space: pre-line;
+}
+.sec-our-founder .bg-green{
+  padding: 15px;
+}
+.sec-our-founder .bg-white{
+  padding: 20px;
+}
+.sec-our-founder .bg-white .part-one h1{
+  font-size: 40px;
+  line-height: 36px;
+}
+.sec-our-founder .bg-white .part-one p{
+  display: block;
+  text-align: left;
+  font-size: 30px;
+  margin: 6px;
+}
+.sec-our-founder .bg-white .part-one .dsc{
+  padding: 20px;
+  margin: 10px 0;
+}
+.sec-our-founder .bg-white .part-one .dsc p {
+  font-size: 18px;
+}
+.sec-our-founder .bg-white .part-one ol{
+  padding-left: 30px;
+  margin: 30px 0;
+}
+.sec-our-founder .bg-white .part-one ol li p, .sec-our-founder .bg-white .part-one ol p{
+  font-size: 24px;
+}
+.sec-our-founder .bg-white .part-one ol .text{
+  font-size: 24px;
+}
+.sec-our-founder .bg-white .part-one .btm-heading h1{
+  font-size: 30px;
+  line-height: 36px;
+}
+.sec-team .part-one .heading h1{
+  font-size: 40px;
+}
+.sec-team .part-one .sub-haeding h2{
+  font-size: 22px;
+  line-height: 30px;
+}
+.sec-team .part-one .sub-haeding {
+  padding: 20px 0 0px 0;
+}
+.sec-team .part-one .dsc {
+  padding: 15px 10px;
+  margin: 15px 0px;
+  min-height: fit-content;
+}
+.sec-team .part-one .dsc p{
+  font-size: 20px;
+}
+.sec-team .part-two .team-content{
+  margin: 10px 0;
+  padding: 10px;
+}
+.sec-team .part-two .team-content .team-member{
+  min-height: fit-content;
+}
+.sec-team .part-thr .heading{
+  padding: 10px 20px;
+}
+.sec-team .part-thr .heading h1{
+  font-size: 20px;
+  margin:0;
+}
+.sec-team .part-thr a{
+  font-size: 22px;
+  padding: 10px 30px;
+}
+.sec-testimonial{
+  padding: 10px 20px;
+}
+.sec-testimonial .content .parent , .sec-testimonial .content .member{
+  margin: 0;
+}
+.sec-testimonial .content .line{
+  display: block;
+  visibility: visible;
+}
+.sec-testimonial .content .parent .title h1, .sec-testimonial .content .member .title h1{
+  font-size: 22px;
+}
+.sec-testimonial .content .parent .arrow-right ul li p.text, .sec-testimonial .content .parent .arrow-right ul li p.number, .sec-testimonial .content .member .arrow-left ul li p.text, .sec-testimonial .content .member .arrow-left ul li p.number{
+  bottom: 24px;
+}
+.sec-testimonial .content .parent .arrow-right ul li p.text , .sec-testimonial .content .member .arrow-left ul li p.text{
+  width: 90%;
+}
+.sec-testimonial .content .parent .arrow-right ul li p.number , .sec-testimonial .content .member .arrow-left ul li p.number{
+  top: 37px;
+}
+.sec-testimonial .content .member .title h1{
+  text-align: left;
+}
+.sec-testimonial .content .member .arrow-left ul li p.text{
+  right: -22px;
+}
+.sec-pontential .part-one .heading h1{
+  font-size: 26px;
+}
+.sec-pontential .part-one .heading h1 span::after, .sec-pontential .part-one .heading h1 span::before{
+  width: 24px;
+  height: 10px;
+}
+.sec-pontential .part-one .dsc{
+  padding: 10px 20px;
+  margin:0;
+}
+.sec-pontential .part-one .dsc p{
+  font-size: 14px;
+}
+.sec-pontential .part-one .link a{
+  font-size: 18px;
+  padding: 10px 20px;
+}
+.sec-pontential .part-one .link, .sec-pontential .part-two .link{
+  margin: 20px auto 20px auto;
+}
+.sec-pontential .part-two{
+  padding: 20px 0;
+}
+.sec-pontential .part-two .heading{
+  padding: 10px;
+}
+.sec-pontential .part-two .heading h1{
+  font-size: 28px;
+}
+.sec-pontential .part-two .link a{
+  font-size: 20px;
+  padding: 15px 20px;
+  margin: 10px 0;
+}
+.sec-pontential .part-two .dsc{
+  margin: 20px  0;
+}
+.sec-pontential .part-two .dsc p{
+  font-size: 20px;
+}
+/** Footer **/
+.back-to-top{
+  left: 85%;
+  width: 35px;
+  height: 35px;
+}
+.back-to-top span{
+  font-size: 18px;
+  line-height: 32px;
+}
+.footer-top .bg-sec::before{
+  top: 45px;
+}
+.footer-top .bg-sec .part-one{
+  padding: 6px;
+}
+.footer-top .bg-sec .part-two {
+  padding: 40px 0px;
+}
+.footer-top .bg-sec .part-two .content {
+  min-height: 300px;
+}
+.footer-top .bg-sec .part-two .content h1{
+  font-size: 18px;
+}
+.footer-top .bg-sec .part-two .content ul li {
+  margin: 8px 0;
+}
+.footer-top .bg-sec .part-one h1{
+  font-size: 32px;
+  margin: 6px 0px;
+}
+.sec-footer .footer-btm ul li{
+  margin: 0 10px;
+}
+.footer-top .bg-sec .part-two .content .social{
+  margin: 24px 0px 4px 0px;
+}
+.footer-top .bg-sec .part-two .content .social li a{
+  font-size: 30px;
+}
+.sec-footer .footer-btm ul li a{
+  font-size: 18px;
+}
+}
+
+/* 3. Large tablets (less than  992px) */
+@media (max-width: 992px) {
+  .topheader h1 {
+    font-size: 18px;
+    line-height: 18px;
+}
+  .navbar::after {
+    display: none;
+}
+.btmheader .bg-btmheader{
+  margin: 0;
+}
+.banner-heading{
+  padding: 50px 0px 0px 0px;
+}
+.banner-heading h1 {
+  font-size: 42px;
+  line-height: 46px;
+  margin: 90px auto 0px auto;
+}
+.banner-start {
+  margin: 50px 0px 100px 0 ;
+}
+.banner-start a {
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+.sec-receive .part-one h1{
+  font-size: 34px;
+}
+.sec-receive .bg-sec{
+  background-size: cover;
+}
+.sec-receive .heading h1{
+  font-size: 32px;
+  line-height: 40px;
+  margin: 20px 10px 0px 10px;
+  text-shadow: 0px 1px 1px #ffcc33;
+}
+.sec-receive .sec-bottom h1{
+  font-size: 32px;
+}
+.sec-year{
+  margin: 0;
+}
+.sec-year .part-one .content-1 ul, .sec-year .part-one .content-2 ul{
+  text-align: left;
+}
+.sec-year .part-one .content-1 ul li a{
+    font-size: 70px; 
+    line-height: 65px;
+}
+.sec-year .part-one .content-1 ul li a span{
+  font-size: 24px;
+  line-height: 26px;
+}
+.sec-year .part-one .content-1 ul li{
+  min-width: 100px;
+}
+.sec-year .part-one .content-2 ul li{
+  width: 100px;
+  height: 100px;
+  min-height: 100px;
+  padding: 24px 0;
+}
+.sec-year .part-one .content-2 ul li a{
+  align-items: center;
+  font-size: 22px;
+  line-height: 24px;
+  margin: 0;
+}
+.sec-year .part-two h1{
+  font-size: 28px;
+}
+.sec-year .part-two a{
+  font-size: 22px;
+  padding: 10px 15px;
+  margin: 15px 20px;
+}
+.sec-year .part-thr ul{
+  padding: 10px 0;
+}
+.sec-year .part-thr ul li{
+  margin: 4px;
+}
+.sec-year .part-thr ul li a{
+  display: block;
+  min-width: 150px;
+  padding: 15px 18px;
+  font-size: 22px;
+}
+.sec-learn{
+  padding: 30px 0;
+}
+.sec-learn2{
+  padding: 20px 0;
+}
+.sec-learn2 .content{
+  padding: 40px 40px ;
+  margin: 10px 40px;
+}
+.sec-learn .part-one h1{
+  font-size: 30px;
+  margin: 10px 0;
+}
+.sec-learn .part-one p{
+  font-size: 18px;
+
+}
+.sec-learn .part-one a, .sec-learn2 .content a{
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+.sec-learn2 .content .text-title{
+  margin: 20px 0;
+}
+.sec-learn2 .content .text-title .image{
+  display: block;
+  margin: auto;
+  max-width: 400px;
+}
+.sec-learn2 .content .text-title .image h1{
+  font-size: 32px;
+  top: 30%;
+}
+
+.sec-support .bg-sec{
+  background-size: cover;
+  background-position: 10% 0%;
+}
+.sec-support .heading h1{
+  font-size: 32px;
+  line-height: 36px;
+  margin: 20px 10px 0px 10px;
+  text-shadow: 0px 1px 1px #fff;
+}
+.sec-support .sec-bottom h1{
+  font-size: 30px;
+}
+.sec-our-mem{
+  background-size: 100% 70%;
+  padding: 30px 0;
+}
+.sec-our-mem .content h1{
+  font-size: 30px;
+  text-align: center;
+}
+.sec-our-mem .content{
+  margin: 15px 0;
+  text-align: center;
+}
+.sec-our-mem .content a{
+  font-size: 20px;
+  padding: 10px 60px;
+}
+.btmheader .breadcrum .bread-title h1{
+  font-size: 34px;
+}
+.btmheader .breadcrum .bread-list li , .btmheader .breadcrum .bread-list li a{
+  font-size: 12px;
+}
+.sec-become-member .part-one h1{
+  font-size: 28px;
+}
+.sec-become-member .part-two .list{
+  padding: 15px 40px;
+}
+.sec-become-member .part-two .list li{
+  font-size: 22px;
+}
+.sec-become-member .link a{
+  font-size: 20px;
+  padding: 15px 20px;
+}
+.sec-become-member .part-thr form .form-group label{
+  text-align: left;
+}
+.sec-become-member .part-thr form button{
+  font-size: 20px;
+  margin: 10px 0;
+}
+.sec-level .part-two .card .card-body .card-title{
+  font-size: 22px;
+  padding: 10px ;
+}
+.sec-level .part-two .card .card-body .card-text{
+  font-size: 14px;
+}
+.sec-level .part-two .card .card-body button{
+  font-size: 14px;
+}
+.sec-level .part-two .card .card-body ul a, .sec-level .part-two .card .card-body ul span{
+  font-size: 18px;
+}
+.sec-level .part-two .card .card-body ul li{
+  margin:2px 4px 6px 4px ; 
+}
+.sec-find-1 .part-one h1{
+  font-size: 26px;
+}
+.sec-find-1 form .form-group label{
+  font-size: 20px;
+}
+.sec-find-1 form .form-group .form-control{
+  height: 55px;
+  font-size: 20px;
+}
+.sec-find-1 .part-two h1{
+  vertical-align: middle;
+}
+.sec-find-1 form .form-group button{
+  font-size: 24px;
+  padding: 6px 15px;
+  margin: 0px;
+}
+.sec-find-1 form .form-group{
+  margin: 10px auto 20px auto;
+}
+.sec-find-1 .part-two a{
+  font-size: 22px;
+  padding: 10px 20px;
+  margin: 5px 0;
+}
+.sec-find-2 .part-one h1, .sec-find-2 .part-two h1{
+  font-size: 54px;
+  margin: 15px 4px;
+}
+.sec-find-2 .part-one a, .sec-find-2 .part-two a{
+  font-size: 22px;
+  padding: 10px 20px;
+  min-width: fit-content;
+  margin: 10px;
+}
+.policies .heading{
+  padding: 20px 0;
+}
+.policies .heading h1{
+  font-size: 24px;
+}
+.policies .dsc{
+  padding: 20px 30px;
+  margin: 0 0 20px 0;
+}
+.policies .dsc p{
+  font-size: 20px;
+}
+.policies .link a{
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 10px;
+  min-width: 280px;
+}
+.careers-banner .banner-title h1{
+  font-size: 28px;
+}
+.careers-banner .banner-dsc{
+  margin: 10px 0;
+}
+.careers-banner .banner-dsc p{
+  background: #f3c629bf;
+  font-size: 22px;
+  padding: 20px 30px;
+  box-shadow: 1px 0px 20px #00000075;
+}
+.careers-banner .banner{
+  background-position: 20% 100%;
+  padding: 100px 0px !important;
+}
+.sec-joinus .part-two .content .title{
+  margin: 20px 0 28px 0;
+}
+.sec-joinus .part-one .heading h1{
+  font-size: 36px;
+}
+.sec-joinus .part-two{
+  margin: 0;
+}
+.sec-joinus .part-two .content{
+  padding: 20px 24px;
+}
+.sec-joinus .part-two .content .title h1{
+  font-size: 28px;
+}
+.sec-joinus .part-two .content .title p{
+  font-size: 20px;
+}
+.sec-joinus .part-two .content .sub-title h1{
+  font-size: 24px;
+}
+.sec-joinus .part-two .content .sub-title {
+  margin: 10px 0 24px 0;
+}
+.sec-joinus .part-two .content ul.list li{
+  font-size: 26px;
+}
+.sec-joinus .part-two .content .link a, .sec-joinus .part-thr .link a{
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+.sec-joinus .part-thr .heading h1{
+  font-size: 28px;
+}
+.sec-joinus .part-thr .box{
+  margin: 10px ;
+  padding: 20px;
+}
+.sec-joinus .part-thr .box h2 {
+  font-size: 22px;
+}
+.sec-joinus .part-thr .dsc{
+  padding: 20px 15px;
+  margin: 20px 15px;
+}
+.sec-joinus .part-thr .dsc p{
+  font-size: 18px;
+  line-height: 26px;
+}
+.sec-joinus .part-two .content .link, .sec-joinus .part-thr .link{
+  margin: 0;
+}
+.sec-level .part-one .title h3{
+  display: inline-flex;
+  font-size: 22px;
+  min-height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+.sec-exprt-train .content{
+  padding: 30px 15px;
+}
+.sec-exprt-train .content .heading h1{
+  font-size: 24px;
+}
+.sec-exprt-train .content .sub-heading{
+  padding: 15px;
+  margin: 20px;
+}
+.sec-exprt-train .content .title{
+  margin: 30px 0 0 0;
+}
+.sec-exprt-train .content .sub-heading h1{
+  font-size: 20px;
+}
+.sec-exprt-train .content .title h1{
+  font-size: 54px;
+  line-height: 43px;
+}
+.sec-exprt-train .content .dsc{
+  padding: 10px 0px;
+  margin: 0 20px;
+}
+.sec-exprt-train .content .dsc p{
+  font-size: 22px;
+  font-size: 22px;
+}
+.sec-exprt-train .content a{
+  font-size: 20px; 
+}
+.sec-mission .part-one .heading h1{
+  font-size: 24px;
+  line-height: 30px;
+}
+.sec-mission .part-one .text{
+  padding: 8px 30px;
+}
+.sec-mission .part-one .text p {
+  font-size: 20px;
+  line-height: 26px;
+}
+.sec-mission .part-two{
+  padding: 90px 0;
+  background-position: 22% 100%;
+}
+.sec-mission .part-one a{
+  font-size: 20px;
+  padding: 10px 30px;
+  margin: 10px 0px;
+}
+.sec-mission .part-two .heading h1{
+  font-size: 28px;
+  line-height: 30px;
+  text-shadow: 0px 1px 2px #fff;
+}
+.sec-mission .part-two .dsc{
+  padding: 20px;
+}
+.sec-mission .part-thr{
+  margin: 20px 0;
+}
+.sec-mission .part-two .dsc p{
+  font-size: 20px;
+  line-height: 26px;
+}
+.sec-mission .part-two .dsc{
+  background: #0b4c41a3;
+
+}
+.sec-mission .part-thr a{
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 6px 0px 40px 0;
+}
+.sec-mission .part-thr h2{
+  font-size: 24px;
+  line-height: 24px;
+}
+.btmheader .breadcrum .bread-title h1 span::after {
+  position: absolute;
+  width: 40px;
+  height: 79px;
+  top: 0px;
+}
+.online-banner .banner{
+  padding: 100px 0px;
+  background-position: 92% 0%;
+}
+.online-banner .banner-heading h1{
+  font-size: 30px;
+  text-shadow: 1px 0px 2px #ffc324;
+  line-height: 36px;
+}
+.online-banner .banner-dsc{
+  margin: 30px 2%;
+}
+.online-banner .banner-dsc p{
+  background: #f3c629bf;
+  padding: 30px ;
+  border-radius: 5px;
+  font-size: 24px;
+  box-shadow: 1px 0px 20px #00000075;
+}
+.sec-plan .part-one .title h1, .sec-plan .part-two .title h1{
+  font-size: 50px;
+}
+.sec-plan .part-one .sub-title h1, .sec-plan .part-two .sub-title h1{
+  font-size: 24px;
+}
+.sec-plan .part-two .title h1{
+  line-height: 40px;
+}
+.sec-plan .part-thr .card .card-text{
+  min-height: fit-content;
+}
+.sec-plan .part-thr{
+  margin: 15px 5px;
+}
+.sec-plan .part-thr .card .card-title{
+  font-size: 22px;
+  margin: 0 0 4px 0;
+}
+.sec-plan .part-thr .card .card-text p{
+  font-size: 20px;
+}
+.sec-plan .part-thr .card .card-text ul li.price{
+  font-size: 34px;
+}
+.sec-plan .part-thr .card .card-body{
+  margin: 0 10px;
+}
+.sec-plan .part-thr .card .card-body .trans-mobile{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+  animation-name: fadeInDown ;
+  animation-iteration-count: infinite;
+  animation-duration: 1.8s;
+}
+.sec-plan .part-thr a{
+  font-size: 20px;
+  padding: 4px 10px;
+  margin: 10px 5px;
+}
+.sec-plan table tbody tr th, .sec-plan table tbody tr td{
+  padding: 5px 8px;
+}
+.sec-plan table tbody tr th{
+  font-size: 14px;
+  white-space: break-spaces;
+}
+.sec-plan table tbody tr th a{
+  font-size: 14px;
+  line-height: 14px;
+}
+.sec-plan table tbody tr td img{
+  width: 24px;
+}
+.sec-plan table tfoot tr td{
+  padding: 0px;
+}
+.sec-plan table tfoot tr td a{
+  font-size: 18px;
+  padding: 8px 10px;
+  margin:0;
+}
+.sec-essen-plan .title h1 , .sec-adv-plan .title h1 , .sec-cmplt-plan .title h1 , .sec-find-more .heading h1{
+  font-size: 30px;
+}
+.sec-essen-plan .content .row , .sec-adv-plan .content .row , .sec-cmplt-plan .content .row{
+  padding: 0px;
+}
+.sec-essen-plan .content .icon , .sec-adv-plan .content .icon , .sec-cmplt-plan .content .icon{
+  min-height: 100px;
+}
+.sec-essen-plan .content .icon img , .sec-adv-plan .content .icon img{
+  width: 50px;
+}
+.sec-cmplt-plan .content .icon img{
+  width: 50px;
+}
+.sec-essen-plan .content .title , .sec-adv-plan .content .title , .sec-cmplt-plan .content .title{
+  padding: 8px;
+  min-height: 50px;
+}
+.sec-essen-plan .content .title h3 , .sec-adv-plan .content .title h3 , .sec-cmplt-plan .content .title h3{
+  font-size: 16px;
+  margin: 0;
+}
+.sec-find-more .link a{
+  font-size: 22px;
+  padding: 10px 15px;
+  display: inline-block;
+  min-width: 230px;
+}
+.sec-find-more .sec-img{
+  background-position: 84% 100%;
+}
+.sec-find-more .ask-qus .heading{
+  padding: 20px 0;
+}
+.sec-find-more .ask-qus .heading h1{
+  font-size: 30px;
+}
+.sec-find-more .ask-qus .content{
+  padding: 10px 0;
+  margin: 10px 0;
+  min-height: 100px;
+
+}
+.sec-find-more .ask-qus .content h3{
+  font-size: 20px;
+}
+.sec-find-more .ask-qus .btm-heading{
+  padding: 20px 0;
+  margin: 20px 0;
+}
+.sec-find-more .ask-qus .btm-heading h1{
+  font-size: 30px;
+}
+.sec-find-more .link a{
+  font-size: 20px;
+  min-width: fit-content;
+}
+.tuition-banner .banner{
+  padding: 80px 0;
+  background-position: 0% 100%;
+}
+.tuition-banner .banner-dsc p{
+  background: #f3c629bf;
+  font-size: 20px;
+  box-shadow: 1px 0px 20px #00000075;
+}
+.sec-choose .part-one .title h1 , .sec-help .heading h1{
+  font-size: 34px;
+}
+.sec-choose .part-two .title h1{
+  font-size: 55px;
+  line-height: 45px;
+}
+.sec-choose .part-two .dsc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  min-height: 110px;
+}
+.sec-choose .part-two .dsc p{
+  font-size: 22px;
+  line-height: 26px;
+  padding: 0px 30px;
+}
+.sec-choose .part-two a{
+  font-size: 20px;
+  padding: 10px 20px;
+  margin:10px 0px 30px 0px;
+}
+.sec-choose .part-thr .title{
+  padding: 15px 10px;
+}
+.sec-choose .part-thr .title h1{
+  font-size: 22px;
+  line-height: 26px;
+}
+.sec-choose .part-thr .content{
+  padding: 10px;
+  margin: 15px 0px;
+  min-height: fit-content;
+}
+.sec-choose .part-thr .content .price{
+  font-size: 40px;
+}
+.sec-choose .part-thr .content p{
+  font-size: 20px;
+}
+.sec-help .content{
+  padding: 20px;
+}
+.sec-help .content p{
+  font-size: 20px;
+}
+.sec-help .content ul{
+  padding: 10px 50px;
+}
+.sec-help .content ul li{
+  font-size: 18px;
+  line-height: 22px;
+}
+.sec-help .box{
+  margin: 20px 0px;
+  padding: 10px 15px;
+}
+.sec-help .box .content{
+  padding: 10px;
+}
+.sec-help .box .content p{
+  font-size: 24px;
+}
+.sec-help .box .content .num{
+  font-size: 50px;
+}
+.sec-question .heading{
+  margin: 20px 0;
+}
+.sec-question .heading h1{
+  font-size: 28px;
+  line-height: 36px;
+}
+.sec-question .content .ques{
+  padding: 15px 20px;
+  min-height: fit-content;
+}
+.sec-question .content .ques h2{
+  font-size: 20px;
+}
+.sec-question .content .link a{
+  font-size: 16px;
+  padding: 8px 15px;
+}
+.sec-question .content .link{
+  margin: 10px 0;
+}
+.sec-question .dsc{
+  padding: 10px 20px;
+}
+.sec-question .dsc p{
+  font-size: 20px;
+}
+.sec-question a.bg-red{
+  font-size: 22px;
+  padding: 8px 15px;
+}
+.sec-volunteer .sec-img{
+  height: 450px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+}
+.sec-volunteer .sec-img h1{
+  font-size: 48px;
+}
+.sec-volunteer .sec-img h1{
+  display: inline-block;
+}
+.sec-volunteer .text-1, .sec-volunteer .text-2{
+  margin: 18px 0;
+}
+.sec-volunteer .link{
+  padding: 30px 80px;
+}
+.sec-volunteer .text-1 p, .sec-volunteer .text-2 p{
+  font-size: 24px;
+}
+.sec-volunteer .bg-green h1, .sec-volunteer .bg-green h2{
+  font-size: 30px;
+}
+.sec-volunteer .link a{
+  font-size: 20px;
+  padding: 8px 6px;
+}
+.sec-blog .heading{
+  padding: 10px 20px;
+}
+.sec-blog .heading h1{
+  font-size: 26px;
+}
+.sec-blog .dsc{
+  padding: 20px;
+  margin: 15px 0 ;
+}
+.sec-blog .dsc p{
+  font-size: 20px;
+}
+.sec-blog .link a , .sec-consul .part-one a{
+  display: inline-block;
+  font-size: 22px;
+  padding: 8px 20px;
+  margin: 10px 0;
+}
+.sec-blog .card{
+  padding: 10px 20px;
+  margin: 20px 4px;
+}
+.sec-blog .card .card-body .card-title{
+  font-size: 18px;
+
+}
+.sec-blog .card .card-body .card-date , .sec-blog .card .card-body .card-text{
+  font-size: 16px;
+  margin: 4px 0;
+}
+.sec-blog .card .card-footer a{
+  font-size: 14px;
+  padding: 6px 15px;
+}
+.sec-blog .card .card-footer{
+  margin-bottom: -36px;
+}
+.sec-blog .social li{
+  margin: 8px 4px;
+}
+.sec-blog .social li a{
+  font-size: 36px;
+}
+.sec-consul .part-one h1{
+  font-size: 30px;
+  margin: 15px 4px;
+}
+.sec-consul .part-one p{
+  font-size: 20px;
+  margin: 14px 4px;
+}
+.sec-ph-tv .heading{
+  padding: 10px 2px;
+}
+.sec-ph-tv .ph-video::after{
+  width: 40px;
+  height: 50px;
+}
+.sec-ph-tv .heading h1{
+  font-size: 26px;
+}
+.sec-ph-tv .text{
+  margin: 35px 0 6px 0;
+}
+.sec-ph-tv .text p{
+  font-size: 16px;
+}
+.sec-faq .part-one .title h1{
+  font-size: 30px;
+}
+.sec-faq .part-one .sub-title h2{
+  font-size: 24px;
+}
+.sec-faq .part-one .tabs-list ul{
+  padding: 20px 20px;
+  text-align: center;
+}
+.sec-faq .part-one .tabs-list ul li a{
+  font-size: 20px;
+  padding: 30px 20px;
+  min-width: fit-content;
+}
+.sec-faq .tab-content .bg-green .heading{
+  padding: 10px;
+  
+}
+.sec-faq .tab-content .bg-green{
+  margin: 20px 0;
+}
+.sec-faq .tab-content .bg-green .heading h3{
+  font-size: 28px;
+  line-height: 28px;
+  margin: 10px 19px;
+}
+.sec-faq .tab-content .content .heading h1{
+  font-size: 28px;
+}
+.sec-faq .tab-content .content .card .card-header{
+  font-size: 24px;
+  padding: 15px 20px;
+}
+.sec-faq .tab-content .content .card .card-body{
+  padding: 10px 30px;
+}
+.sec-faq .tab-content .content .card .card-text{
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.sec-faq .tab-content .content .link{
+  text-align: center;
+  margin: 0 0 30px 0 ;
+}
+.sec-faq .tab-content .content .link a{
+  font-size: 18px;
+  padding: 8px 10px;
+}
+.sec-faq .tab-content .content .heading{
+  margin: 30px 0;
+}
+.sec-faq .tab-content .content .card .card-body ol{
+  padding:  0 15px;
+  text-align: left;
+}
+.choose-us-banner .banner{
+  background-position: 85% 100%;
+  padding: 100px 0;
+}
+.choose-us-banner .banner-dsc{
+  margin: 40px auto;
+}
+.choose-us-banner .banner-dsc p{
+  background: #f3c62980;
+  box-shadow: 1px 0px 11px #00000075;
+  text-shadow: 0px 0px 0px #0b4c41;
+  font-size: 20px;
+  padding: 20px 15px;
+}
+.sec-info .bg-green{
+  padding: 30px;
+}
+.sec-info .part-one{
+  padding: 30px 0;
+}
+.sec-info .part-one ul.list-trian li{
+  width: 180px;
+  height: 150px;
+  margin: 0px -42px;
+}
+.sec-info .part-one ul.list-trian li p{
+  font-size: 16px;
+  bottom: 0px;
+}
+.sec-info .part-one ul.list-info{
+  padding: 0 0px 0 60px;
+}
+.sec-info .part-one ul.list-info li{
+  font-size: 20px;
+  line-height: 26px;
+}
+.sec-info .part-two h1{
+  font-size: 28px;
+}
+.sec-info .part-thr .title h1{
+  font-size: 36px;
+}
+.sec-info .part-thr .bg-sec{
+  background-position: center bottom;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 380px;
+}
+.sec-info .part-thr .bg-sec h1{
+  font-size: 46px;
+  text-shadow: 1px 1px 4px #0b4c41;
+}
+.sec-story .part-one .heading h1{
+  font-size: 38px;
+}
+.sec-story .dsc{
+  padding: 15px 25px;
+}
+.sec-story .dsc p{
+  font-size: 20px;
+}
+.sec-story .history{
+  margin: 20px 0;
+}
+.sec-story .story-flow{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 30px 0;
+}
+.sec-story .story-flow .heading{
+  margin: 0;
+}
+.sec-story .story-flow .heading h1{
+  font-size: 30px;
+}
+.sec-story .story-flow .tringle-top p, .sec-story .story-flow .tringle-right p, .sec-story .story-flow .tringle-btm p, .sec-story .story-flow .tringle-left p{
+  font-size: 16px;
+}
+.sec-story .story-flow .tringle-top p{
+  top: -90px;
+  white-space: pre-line;
+}
+.sec-story .story-flow .tringle-btm p{
+  top: 45px;
+  white-space: pre-line;
+}
+.sec-story .story-flow .tringle-right p{
+  top: -100px;
+  white-space: pre-line;
+  right: 140px;
+}
+.sec-story .story-flow .tringle-left p{
+    top: 55px;
+    right: 340px;
+    left: 0;
+    white-space: pre-line;
+}
+.sec-our-founder .bg-green{
+  padding: 15px;
+}
+.sec-our-founder .bg-white{
+  padding: 20px;
+}
+.sec-our-founder .bg-white .part-one h1{
+  font-size: 40px;
+  line-height: 36px;
+}
+.sec-our-founder .bg-white .part-one p{
+  display: block;
+  text-align: left;
+  font-size: 30px;
+  margin: 6px;
+}
+.sec-our-founder .bg-white .part-one .dsc{
+  padding: 20px;
+  margin: 10px 0;
+}
+.sec-our-founder .bg-white .part-one .dsc p {
+  font-size: 18px;
+}
+.sec-our-founder .bg-white .part-one ol{
+  padding-left: 30px;
+  margin: 30px 0;
+}
+.sec-our-founder .bg-white .part-one ol li p, .sec-our-founder .bg-white .part-one ol p{
+  font-size: 24px;
+}
+.sec-our-founder .bg-white .part-one ol .text{
+  font-size: 24px;
+}
+.sec-our-founder .bg-white .part-one .btm-heading h1{
+  font-size: 30px;
+  line-height: 36px;
+}
+.sec-team .part-one .heading h1{
+  font-size: 40px;
+}
+.sec-team .part-one .sub-haeding h2{
+  font-size: 22px;
+  line-height: 30px;
+}
+.sec-team .part-one .sub-haeding {
+  padding: 20px 0 0px 0;
+}
+.sec-team .part-one .dsc {
+  padding: 15px 10px;
+  margin: 15px 0px;
+  min-height: fit-content;
+}
+.sec-team .part-one .dsc p{
+  font-size: 20px;
+}
+.sec-team .part-two .team-content{
+  margin: 10px 0;
+  padding: 10px;
+}
+.sec-team .part-two .team-content .team-member{
+  min-height: fit-content;
+}
+.sec-team .part-thr .heading{
+  padding: 10px 20px;
+}
+.sec-team .part-thr .heading h1{
+  font-size: 20px;
+  margin:0;
+}
+.sec-team .part-thr a{
+  font-size: 20px;
+  padding: 10px 30px;
+}
+.sec-testimonial{
+  padding: 10px 20px;
+}
+.sec-testimonial .content .parent , .sec-testimonial .content .member{
+  margin: 0;
+}
+.sec-testimonial .content .line{
+  display: none;
+  visibility: hidden;
+}
+.sec-testimonial .content .parent .title h1, .sec-testimonial .content .member .title h1{
+  font-size: 22px;
+}
+.sec-testimonial .content .parent .arrow-right ul li p.text, .sec-testimonial .content .parent .arrow-right ul li p.number, .sec-testimonial .content .member .arrow-left ul li p.text, .sec-testimonial .content .member .arrow-left ul li p.number{
+  bottom: 24px;
+}
+.sec-testimonial .content .parent .arrow-right ul li p.text , .sec-testimonial .content .member .arrow-left ul li p.text{
+  width: 90%;
+}
+.sec-testimonial .content .parent .arrow-right ul li p.number , .sec-testimonial .content .member .arrow-left ul li p.number{
+  top: 37px;
+}
+.sec-testimonial .content .member .title h1{
+  text-align: left;
+}
+.sec-testimonial .content .member .arrow-left ul li p.text{
+  right: -22px;
+}
+.sec-pontential .part-one .heading h1{
+  font-size: 26px;
+}
+.sec-pontential .part-one .heading h1 span::after, .sec-pontential .part-one .heading h1 span::before{
+  width: 24px;
+  height: 10px;
+}
+.sec-pontential .part-one .dsc{
+  padding: 10px 20px;
+  margin:0;
+}
+.sec-pontential .part-one .dsc p{
+  font-size: 10px;
+}
+.sec-pontential .part-one .link a{
+  font-size: 18px;
+  padding: 10px 20px;
+}
+.sec-pontential .part-one .link, .sec-pontential .part-two .link{
+  margin: 20px auto 20px auto;
+}
+.sec-pontential .part-two{
+  padding: 20px 0;
+}
+.sec-pontential .part-two .heading{
+  padding: 10px;
+}
+.sec-pontential .part-two .heading h1{
+  font-size: 28px;
+}
+.sec-pontential .part-two .link a{
+  font-size: 20px;
+  padding: 15px 20px;
+  margin: 10px 0;
+}
+.sec-pontential .part-two .dsc{
+  margin: 20px  0;
+}
+.sec-pontential .part-two .dsc p{
+  font-size: 20px;
+}
+/** Footer **/
+.back-to-top{
+  left: 85%;
+  width: 35px;
+  height: 35px;
+}
+.back-to-top span{
+  font-size: 18px;
+  line-height: 32px;
+}
+.footer-top .bg-sec::before{
+  top: 45px;
+}
+.footer-top .bg-sec .part-one{
+  padding: 6px;
+}
+.footer-top .bg-sec .part-two {
+  padding: 40px 0px;
+}
+.footer-top .bg-sec .part-two .content ul li {
+  margin: 8px 0;
+}
+.footer-top .bg-sec .part-one h1{
+  font-size: 30px;
+  margin: 6px 0px;
+}
+.sec-footer .footer-btm ul li{
+  margin: 0 10px;
+}
+.footer-top .bg-sec .part-two .content .social{
+  margin: 24px 0px 4px 0px;
+}
+.footer-top .bg-sec .part-two .content .social li a{
+  font-size: 30px;
+}
+.sec-footer .footer-btm ul li a{
+  font-size: 18px;
+}
+}
+
+/* 4. Medium devices (less than  768px) */
+@media (max-width: 768px) {
+  .side-nav{
+    display: block;
+  }
+  .topheader h1 {
+    font-size: 18px;
+    line-height: 18px;
+}
+  .navbar::after {
+    display: none;
+}
+.btmheader .bg-btmheader{
+  margin: 0;
+}
+.banner-heading{
+  padding: 50px 0px 0px 0px;
+}
+.banner-heading h1 {
+  font-size: 42px;
+  line-height: 46px;
+  margin: 90px auto 0px auto;
+}
+.banner-start {
+  margin: 50px 0px 100px 0 ;
+}
+.banner-start a {
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+.sec-receive .part-one h1{
+  font-size: 34px;
+}
+.sec-receive .bg-sec{
+  background-size: cover;
+}
+.sec-receive .heading h1{
+  font-size: 32px;
+  line-height: 40px;
+  margin: 20px 10px 0px 10px;
+  text-shadow: 0px 1px 1px #ffcc33;
+}
+.sec-receive .sec-bottom h1{
+  font-size: 32px;
+}
+.sec-year{
+  margin: 0;
+}
+.sec-year .part-one .content-1 ul, .sec-year .part-one .content-2 ul{
+  text-align: left;
+}
+.sec-year .part-one .content-1 ul li a{
+    font-size: 70px; 
+    line-height: 65px;
+}
+.sec-year .part-one .content-1 ul li a span{
+  font-size: 24px;
+  line-height: 26px;
+}
+.sec-year .part-one .content-1 ul li{
+  min-width: 100px;
+}
+.sec-year .part-one .content-2 ul li{
+  width: 100px;
+  height: 100px;
+  min-height: 100px;
+  padding: 24px 0;
+}
+.sec-year .part-one .content-2 ul li a{
+  align-items: center;
+  font-size: 22px;
+  line-height: 24px;
+  margin: 0;
+}
+.sec-year .part-two h1{
+  font-size: 28px;
+}
+.sec-year .part-two a{
+  font-size: 22px;
+  padding: 10px 15px;
+  margin: 15px 20px;
+}
+.sec-year .part-thr ul{
+  padding: 10px 0;
+}
+.sec-year .part-thr ul li{
+  margin: 4px;
+}
+.sec-year .part-thr ul li a{
+  display: block;
+  min-width: 150px;
+  padding: 15px 18px;
+  font-size: 22px;
+}
+.sec-learn{
+  padding: 30px 0;
+}
+.sec-learn2{
+  padding: 20px 0;
+}
+.sec-learn2 .content{
+  padding: 40px 40px ;
+  margin: 10px 40px;
+}
+.sec-learn .part-one h1{
+  font-size: 30px;
+  margin: 10px 0;
+}
+.sec-learn .part-one p{
+  font-size: 18px;
+
+}
+.sec-learn .part-one a, .sec-learn2 .content a{
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+.sec-learn2 .content .text-title{
+  margin: 20px 0;
+}
+.sec-learn2 .content .text-title .image{
+  display: block;
+  margin: auto;
+  max-width: 400px;
+}
+.sec-learn2 .content .text-title .image h1{
+  font-size: 32px;
+  top: 30%;
+}
+
+.sec-support .bg-sec{
+  background-size: cover;
+  background-position: 10% 0%;
+}
+.sec-support .heading h1{
+  font-size: 32px;
+  line-height: 36px;
+  margin: 20px 10px 0px 10px;
+  text-shadow: 0px 1px 1px #fff;
+}
+.sec-support .sec-bottom h1{
+  font-size: 30px;
+}
+.sec-our-mem{
+  background-size: 100% 70%;
+  padding: 30px 0;
+}
+.sec-our-mem .content h1{
+  font-size: 30px;
+  text-align: center;
+}
+.sec-our-mem .content{
+  margin: 15px 0;
+  text-align: center;
+}
+.sec-our-mem .content a{
+  font-size: 20px;
+  padding: 10px 60px;
+}
+.btmheader .breadcrum .bread-title h1{
+  font-size: 34px;
+}
+.btmheader .breadcrum .bread-list li , .btmheader .breadcrum .bread-list li a{
+  font-size: 12px;
+}
+.sec-become-member .part-one h1{
+  font-size: 28px;
+}
+.sec-become-member .part-two .list{
+  padding: 15px 40px;
+}
+.sec-become-member .part-two .list li{
+  font-size: 22px;
+}
+.sec-become-member .link a{
+  font-size: 20px;
+  padding: 15px 20px;
+}
+.sec-become-member .part-thr form .form-group label{
+  text-align: left;
+}
+.sec-become-member .part-thr form button{
+  font-size: 20px;
+  margin: 10px 0;
+}
+.sec-level .part-two .card .card-body .card-title{
+  font-size: 22px;
+  padding: 10px ;
+}
+.sec-level .part-two .card .card-body .card-text{
+  font-size: 14px;
+}
+.sec-level .part-two .card .card-body button{
+  font-size: 14px;
+}
+.sec-level .part-two .card .card-body ul a, .sec-level .part-two .card .card-body ul span{
+  font-size: 18px;
+}
+.sec-level .part-two .card .card-body ul li{
+  margin:2px 4px 6px 4px ; 
+}
+.sec-find-1 .part-one h1{
+  font-size: 26px;
+}
+.sec-find-1 form .form-group label{
+  font-size: 20px;
+}
+.sec-find-1 form .form-group .form-control{
+  height: 55px;
+  font-size: 20px;
+}
+.sec-find-1 .part-two h1{
+  vertical-align: middle;
+}
+.sec-find-1 form .form-group button{
+  font-size: 24px;
+  padding: 6px 15px;
+  margin: 0px;
+}
+.sec-find-1 form .form-group{
+  margin: 10px auto 20px auto;
+}
+.sec-find-1 .part-two a{
+  font-size: 22px;
+  padding: 10px 20px;
+  margin: 5px 0;
+}
+.sec-find-2 .part-one h1, .sec-find-2 .part-two h1{
+  font-size: 54px;
+  margin: 15px 4px;
+}
+.sec-find-2 .part-one a, .sec-find-2 .part-two a{
+  font-size: 22px;
+  padding: 10px 20px;
+  min-width: fit-content;
+  margin: 10px;
+}
+.policies .heading{
+  padding: 20px 0;
+}
+.policies .heading h1{
+  font-size: 24px;
+}
+.policies .dsc{
+  padding: 20px 30px;
+  margin: 0 0 20px 0;
+}
+.policies .dsc p{
+  font-size: 20px;
+}
+.policies .link a{
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 10px;
+  min-width: 280px;
+}
+.careers-banner .banner-title h1{
+  font-size: 28px;
+}
+.careers-banner .banner-dsc{
+  margin: 10px 0;
+}
+.careers-banner .banner-dsc p{
+  background: #f3c629bf;
+  font-size: 22px;
+  padding: 20px 30px;
+  box-shadow: 1px 0px 20px #00000075;
+}
+.careers-banner .banner{
+  background-position: 20% 100%;
+  padding: 100px 0px !important;
+}
+.sec-joinus .part-two .content .title{
+  margin: 20px 0 28px 0;
+}
+.sec-joinus .part-one .heading h1{
+  font-size: 36px;
+}
+.sec-joinus .part-two{
+  margin: 0;
+}
+.sec-joinus .part-two .content{
+  padding: 20px 24px;
+}
+.sec-joinus .part-two .content .title h1{
+  font-size: 28px;
+}
+.sec-joinus .part-two .content .title p{
+  font-size: 20px;
+}
+.sec-joinus .part-two .content .sub-title h1{
+  font-size: 24px;
+}
+.sec-joinus .part-two .content .sub-title {
+  margin: 10px 0 24px 0;
+}
+.sec-joinus .part-two .content ul.list li{
+  font-size: 26px;
+}
+.sec-joinus .part-two .content .link a, .sec-joinus .part-thr .link a{
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+.sec-joinus .part-thr .heading h1{
+  font-size: 28px;
+}
+.sec-joinus .part-thr .box{
+  margin: 10px ;
+  padding: 20px;
+}
+.sec-joinus .part-thr .box h2 {
+  font-size: 22px;
+}
+.sec-joinus .part-thr .dsc{
+  padding: 20px 15px;
+  margin: 20px 15px;
+}
+.sec-joinus .part-thr .dsc p{
+  font-size: 18px;
+  line-height: 26px;
+}
+.sec-joinus .part-two .content .link, .sec-joinus .part-thr .link{
+  margin: 0;
+}
+.sec-level .part-one .title h3{
+  display: inline-flex;
+  font-size: 22px;
+  min-height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+.sec-exprt-train .content{
+  padding: 30px 15px;
+}
+.sec-exprt-train .content .heading h1{
+  font-size: 24px;
+}
+.sec-exprt-train .content .sub-heading{
+  padding: 15px;
+  margin: 20px;
+}
+.sec-exprt-train .content .title{
+  margin: 30px 0 0 0;
+}
+.sec-exprt-train .content .sub-heading h1{
+  font-size: 20px;
+}
+.sec-exprt-train .content .title h1{
+  font-size: 54px;
+  line-height: 43px;
+}
+.sec-exprt-train .content .dsc{
+  padding: 10px 0px;
+  margin: 0 20px;
+}
+.sec-exprt-train .content .dsc p{
+  font-size: 22px;
+  font-size: 22px;
+}
+.sec-exprt-train .content a{
+  font-size: 20px; 
+}
+.sec-mission .part-one .heading h1{
+  font-size: 24px;
+  line-height: 30px;
+}
+.sec-mission .part-one .text{
+  padding: 8px 30px;
+}
+.sec-mission .part-one .text p {
+  font-size: 20px;
+  line-height: 26px;
+}
+.sec-mission .part-two{
+  padding: 90px 0;
+  background-position: 22% 100%;
+}
+.sec-mission .part-one a{
+  font-size: 20px;
+  padding: 10px 30px;
+  margin: 10px 0px;
+}
+.sec-mission .part-two .heading h1{
+  font-size: 28px;
+  line-height: 30px;
+  text-shadow: 0px 1px 2px #fff;
+}
+.sec-mission .part-two .dsc{
+  padding: 20px;
+}
+.sec-mission .part-thr{
+  margin: 20px 0;
+}
+.sec-mission .part-two .dsc p{
+  font-size: 20px;
+  line-height: 26px;
+}
+.sec-mission .part-two .dsc{
+  background: #0b4c41a3;
+
+}
+.sec-mission .part-thr a{
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 6px 0px 40px 0;
+}
+.sec-mission .part-thr h2{
+  font-size: 24px;
+  line-height: 24px;
+}
+.btmheader .breadcrum .bread-title h1 span::after {
+  position: absolute;
+  width: 40px;
+  height: 79px;
+  top: 0px;
+}
+.online-banner .banner{
+  padding: 100px 0px;
+  background-position: 92% 0%;
+}
+.online-banner .banner-heading h1{
+  font-size: 30px;
+  text-shadow: 1px 0px 2px #ffc324;
+  line-height: 36px;
+}
+.online-banner .banner-dsc{
+  margin: 30px 2%;
+}
+.online-banner .banner-dsc p{
+  background: #f3c629bf;
+  padding: 30px ;
+  border-radius: 5px;
+  font-size: 24px;
+  box-shadow: 1px 0px 20px #00000075;
+}
+.sec-plan .part-one .title h1, .sec-plan .part-two .title h1{
+  font-size: 50px;
+}
+.sec-plan .part-one .sub-title h1, .sec-plan .part-two .sub-title h1{
+  font-size: 24px;
+}
+.sec-plan .part-two .title h1{
+  line-height: 40px;
+}
+.sec-plan .part-thr{
+  margin: 15px 5px;
+}
+.sec-plan .part-thr .card .card-title{
+  font-size: 22px;
+  margin: 0 0 4px 0;
+}
+.sec-plan .part-thr .card .card-text p{
+  font-size: 20px;
+}
+.sec-plan .part-thr .card .card-text ul li.price{
+  font-size: 34px;
+}
+.sec-plan .part-thr .card .card-body{
+  margin: 0 10px;
+}
+.sec-plan .part-thr .card .card-body .trans-mobile{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+  animation-name: fadeInDown ;
+  animation-iteration-count: infinite;
+  animation-duration: 1.8s;
+}
+.sec-plan .part-thr a{
+  font-size: 20px;
+  padding: 4px 10px;
+  margin: 10px 5px;
+}
+.sec-plan table tbody tr th, .sec-plan table tbody tr td{
+  padding: 5px 8px;
+}
+.sec-plan table tbody tr th{
+  font-size: 14px;
+  white-space: break-spaces;
+}
+.sec-plan table tbody tr th a{
+  font-size: 14px;
+  line-height: 14px;
+}
+.sec-plan table tbody tr td img{
+  width: 24px;
+}
+.sec-plan table tfoot tr td{
+  padding: 0px;
+}
+.sec-plan table tfoot tr td a{
+  font-size: 18px;
+  padding: 8px 10px;
+  margin:0;
+}
+.sec-essen-plan .title h1 , .sec-adv-plan .title h1 , .sec-cmplt-plan .title h1 , .sec-find-more .heading h1{
+  font-size: 30px;
+}
+.sec-essen-plan .content .row , .sec-adv-plan .content .row , .sec-cmplt-plan .content .row{
+  padding: 0px;
+}
+.sec-essen-plan .content .icon , .sec-adv-plan .content .icon , .sec-cmplt-plan .content .icon{
+  min-height: 100px;
+}
+.sec-essen-plan .content .icon img , .sec-adv-plan .content .icon img{
+  width: 50px;
+}
+.sec-cmplt-plan .content .icon img{
+  width: 50px;
+}
+.sec-essen-plan .content .title , .sec-adv-plan .content .title , .sec-cmplt-plan .content .title{
+  padding: 8px;
+  min-height: 50px;
+}
+.sec-essen-plan .content .title h3 , .sec-adv-plan .content .title h3 , .sec-cmplt-plan .content .title h3{
+  font-size: 16px;
+  margin: 0;
+}
+.sec-find-more .link a{
+  font-size: 22px;
+  padding: 10px 15px;
+  display: inline-block;
+  min-width: 230px;
+}
+.sec-find-more .sec-img{
+  background-position: 84% 100%;
+}
+.sec-find-more .ask-qus .heading{
+  padding: 20px 0;
+}
+.sec-find-more .ask-qus .heading h1{
+  font-size: 30px;
+}
+.sec-find-more .ask-qus .content{
+  padding: 10px 0;
+  margin: 10px 0;
+  min-height: 100px;
+
+}
+.sec-find-more .ask-qus .content h3{
+  font-size: 20px;
+}
+.sec-find-more .ask-qus .btm-heading{
+  padding: 20px 0;
+  margin: 20px 0;
+}
+.sec-find-more .ask-qus .btm-heading h1{
+  font-size: 30px;
+}
+.sec-find-more .link a{
+  font-size: 20px;
+  min-width: fit-content;
+}
+.tuition-banner .banner{
+  padding: 80px 0;
+  background-position: 0% 100%;
+}
+.tuition-banner .banner-dsc p{
+  background: #f3c629bf;
+  font-size: 20px;
+  box-shadow: 1px 0px 20px #00000075;
+}
+.sec-choose .part-one .title h1 , .sec-help .heading h1{
+  font-size: 34px;
+}
+.sec-choose .part-two .title h1{
+  font-size: 55px;
+  line-height: 45px;
+}
+.sec-choose .part-two .dsc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  min-height: 110px;
+}
+.sec-choose .part-two .dsc p{
+  font-size: 22px;
+  line-height: 26px;
+  padding: 0px 30px;
+}
+.sec-choose .part-two a{
+  font-size: 20px;
+  padding: 10px 20px;
+  margin:10px 0px 30px 0px;
+}
+.sec-choose .part-thr .title{
+  padding: 15px 10px;
+}
+.sec-choose .part-thr .title h1{
+  font-size: 22px;
+  line-height: 26px;
+}
+.sec-choose .part-thr .content{
+  padding: 10px;
+  margin: 15px 0px;
+  min-height: fit-content;
+}
+.sec-choose .part-thr .content .price{
+  font-size: 40px;
+}
+.sec-choose .part-thr .content p{
+  font-size: 20px;
+}
+.sec-help .content{
+  padding: 20px;
+}
+.sec-help .content p{
+  font-size: 20px;
+}
+.sec-help .content ul{
+  padding: 10px 50px;
+}
+.sec-help .content ul li{
+  font-size: 18px;
+  line-height: 22px;
+}
+.sec-help .box{
+  margin: 20px 0px;
+  padding: 10px 15px;
+}
+.sec-help .box .content{
+  padding: 10px;
+}
+.sec-help .box .content p{
+  font-size: 24px;
+}
+.sec-help .box .content .num{
+  font-size: 50px;
+}
+.sec-question .heading{
+  margin: 20px 0;
+}
+.sec-question .heading h1{
+  font-size: 28px;
+  line-height: 36px;
+}
+.sec-question .content .ques{
+  padding: 15px 20px;
+  min-height: fit-content;
+}
+.sec-question .content .ques h2{
+  font-size: 20px;
+}
+.sec-question .content .link a{
+  font-size: 16px;
+  padding: 8px 15px;
+}
+.sec-question .content .link{
+  margin: 10px 0;
+}
+.sec-question .dsc{
+  padding: 10px 20px;
+}
+.sec-question .dsc p{
+  font-size: 20px;
+}
+.sec-question a.bg-red{
+  font-size: 22px;
+  padding: 8px 15px;
+}
+.sec-volunteer .sec-img{
+  height: 450px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+}
+.sec-volunteer .sec-img h1{
+  font-size: 48px;
+}
+.sec-volunteer .sec-img h1{
+  display: inline-block;
+}
+.sec-volunteer .text-1, .sec-volunteer .text-2{
+  margin: 18px 0;
+}
+.sec-volunteer .link{
+  padding: 30px 80px;
+}
+.sec-volunteer .text-1 p, .sec-volunteer .text-2 p{
+  font-size: 24px;
+}
+.sec-volunteer .bg-green h1, .sec-volunteer .bg-green h2{
+  font-size: 30px;
+}
+.sec-volunteer .link a{
+  font-size: 20px;
+  padding: 8px 6px;
+}
+.sec-blog .heading{
+  padding: 10px 20px;
+}
+.sec-blog .heading h1{
+  font-size: 26px;
+}
+.sec-blog .dsc{
+  padding: 20px;
+  margin: 15px 0 ;
+}
+.sec-blog .dsc p{
+  font-size: 20px;
+}
+.sec-blog .link a , .sec-consul .part-one a{
+  display: inline-block;
+  font-size: 22px;
+  padding: 8px 20px;
+  margin: 10px 0;
+}
+.sec-blog .card{
+  padding: 10px 20px;
+  margin: 20px 4px;
+}
+.sec-blog .card .card-body .card-title{
+  font-size: 18px;
+
+}
+.sec-blog .card .card-body .card-date , .sec-blog .card .card-body .card-text{
+  font-size: 16px;
+  margin: 4px 0;
+}
+.sec-blog .card .card-footer a{
+  font-size: 14px;
+  padding: 6px 15px;
+}
+.sec-blog .card .card-footer{
+  margin-bottom: -36px;
+}
+.sec-blog .social li{
+  margin: 8px 4px;
+}
+.sec-blog .social li a{
+  font-size: 36px;
+}
+.sec-consul .part-one h1{
+  font-size: 30px;
+  margin: 15px 4px;
+}
+.sec-consul .part-one p{
+  font-size: 20px;
+  margin: 14px 4px;
+}
+.sec-ph-tv .heading{
+  padding: 10px 2px;
+}
+.sec-ph-tv .ph-video::after{
+  width: 40px;
+  height: 50px;
+}
+.sec-ph-tv .heading h1{
+  font-size: 26px;
+}
+.sec-ph-tv .text{
+  margin: 35px 0 6px 0;
+}
+.sec-ph-tv .text p{
+  font-size: 16px;
+}
+.sec-faq .part-one .title h1{
+  font-size: 30px;
+}
+.sec-faq .part-one .sub-title h2{
+  font-size: 24px;
+}
+.sec-faq .part-one .tabs-list ul{
+  padding: 20px 20px;
+  text-align: center;
+}
+.sec-faq .part-one .tabs-list ul li a{
+  font-size: 20px;
+  padding: 30px 20px;
+  min-width: fit-content;
+}
+.sec-faq .tab-content .bg-green .heading{
+  padding: 10px;
+  
+}
+.sec-faq .tab-content .bg-green{
+  margin: 20px 0;
+}
+.sec-faq .tab-content .bg-green .heading h3{
+  font-size: 28px;
+  line-height: 28px;
+  margin: 10px 19px;
+}
+.sec-faq .tab-content .content .heading h1{
+  font-size: 28px;
+}
+.sec-faq .tab-content .content .card .card-header{
+  font-size: 24px;
+  padding: 15px 20px;
+}
+.sec-faq .tab-content .content .card .card-body{
+  padding: 10px 30px;
+}
+.sec-faq .tab-content .content .card .card-text{
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.sec-faq .tab-content .content .link{
+  text-align: center;
+  margin: 0 0 30px 0 ;
+}
+.sec-faq .tab-content .content .link a{
+  font-size: 18px;
+  padding: 8px 10px;
+}
+.sec-faq .tab-content .content .heading{
+  margin: 30px 0;
+}
+.sec-faq .tab-content .content .card .card-body ol{
+  padding:  0 15px;
+  text-align: left;
+}
+.choose-us-banner .banner{
+  background-position: 85% 100%;
+  padding: 100px 0;
+}
+.choose-us-banner .banner-dsc{
+  margin: 40px auto;
+}
+.choose-us-banner .banner-dsc p{
+  background: #f3c62980;
+  box-shadow: 1px 0px 11px #00000075;
+  text-shadow: 0px 0px 0px #0b4c41;
+  font-size: 20px;
+  padding: 20px 15px;
+}
+.sec-info .bg-green{
+  padding: 30px;
+}
+.sec-info .part-one{
+  padding: 30px 0;
+}
+.sec-info .part-one ul.list-trian li{
+  width: 180px;
+  height: 150px;
+  margin: 0px -42px;
+}
+.sec-info .part-one ul.list-trian li p{
+  font-size: 16px;
+  bottom: 0px;
+}
+.sec-info .part-one ul.list-info{
+  padding: 0 0px 0 60px;
+}
+.sec-info .part-one ul.list-info li{
+  font-size: 20px;
+  line-height: 26px;
+}
+.sec-info .part-two h1{
+  font-size: 28px;
+}
+.sec-info .part-thr .title h1{
+  font-size: 36px;
+}
+.sec-info .part-thr .bg-sec{
+  background-position: center bottom;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 380px;
+}
+.sec-info .part-thr .bg-sec h1{
+  font-size: 46px;
+  text-shadow: 1px 1px 4px #0b4c41;
+}
+.sec-story .part-one .heading h1{
+  font-size: 38px;
+}
+.sec-story .dsc{
+  padding: 15px 25px;
+}
+.sec-story .dsc p{
+  font-size: 20px;
+}
+.sec-story .history{
+  margin: 20px 0;
+}
+.sec-story .story-flow{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 30px 0;
+}
+.sec-story .story-flow .heading{
+  margin: 0;
+}
+.sec-story .story-flow .heading h1{
+  font-size: 30px;
+}
+.sec-story .story-flow .tringle-top p, .sec-story .story-flow .tringle-right p, .sec-story .story-flow .tringle-btm p, .sec-story .story-flow .tringle-left p{
+  font-size: 16px;
+}
+.sec-story .story-flow .tringle-top p{
+  top: -90px;
+  white-space: pre-line;
+}
+.sec-story .story-flow .tringle-btm p{
+  top: 45px;
+  white-space: pre-line;
+}
+.sec-story .story-flow .tringle-right p{
+  top: -100px;
+  white-space: pre-line;
+  right: 140px;
+}
+.sec-story .story-flow .tringle-left p{
+    top: 55px;
+    right: 340px;
+    left: 0;
+    white-space: pre-line;
+}
+.sec-our-founder .bg-green{
+  padding: 15px;
+}
+.sec-our-founder .bg-white{
+  padding: 20px;
+}
+.sec-our-founder .bg-white .part-one h1{
+  font-size: 40px;
+  line-height: 36px;
+}
+.sec-our-founder .bg-white .part-one p{
+  display: block;
+  text-align: left;
+  font-size: 30px;
+  margin: 6px;
+}
+.sec-our-founder .bg-white .part-one .dsc{
+  padding: 20px;
+  margin: 10px 0;
+}
+.sec-our-founder .bg-white .part-one .dsc p {
+  font-size: 18px;
+}
+.sec-our-founder .bg-white .part-one ol{
+  padding-left: 30px;
+  margin: 30px 0;
+}
+.sec-our-founder .bg-white .part-one ol li p, .sec-our-founder .bg-white .part-one ol p{
+  font-size: 24px;
+}
+.sec-our-founder .bg-white .part-one ol .text{
+  font-size: 24px;
+}
+.sec-our-founder .bg-white .part-one .btm-heading h1{
+  font-size: 30px;
+  line-height: 36px;
+}
+.sec-team .part-one .heading h1{
+  font-size: 40px;
+}
+.sec-team .part-one .sub-haeding h2{
+  font-size: 22px;
+  line-height: 30px;
+}
+.sec-team .part-one .sub-haeding {
+  padding: 20px 0 0px 0;
+}
+.sec-team .part-one .dsc {
+  padding: 15px 10px;
+  margin: 15px 0px;
+  min-height: fit-content;
+}
+.sec-team .part-one .dsc p{
+  font-size: 20px;
+}
+.sec-team .part-two .team-content{
+  margin: 10px 0;
+  padding: 10px;
+}
+.sec-team .part-two .team-content .team-member{
+  min-height: fit-content;
+}
+.sec-team .part-thr .heading{
+  padding: 10px 20px;
+}
+.sec-team .part-thr .heading h1{
+  font-size: 20px;
+  margin:0;
+}
+.sec-team .part-thr a{
+  font-size: 20px;
+  padding: 10px 30px;
+}
+.sec-testimonial{
+  padding: 10px 20px;
+}
+.sec-testimonial .content .parent , .sec-testimonial .content .member{
+  margin: 0;
+}
+.sec-testimonial .content .line{
+  display: none;
+  visibility: hidden;
+}
+.sec-testimonial .content .parent .title h1, .sec-testimonial .content .member .title h1{
+  font-size: 22px;
+}
+.sec-testimonial .content .parent .arrow-right ul li p.text, .sec-testimonial .content .parent .arrow-right ul li p.number, .sec-testimonial .content .member .arrow-left ul li p.text, .sec-testimonial .content .member .arrow-left ul li p.number{
+  bottom: 24px;
+}
+.sec-testimonial .content .parent .arrow-right ul li p.text , .sec-testimonial .content .member .arrow-left ul li p.text{
+  width: 90%;
+}
+.sec-testimonial .content .parent .arrow-right ul li p.number , .sec-testimonial .content .member .arrow-left ul li p.number{
+  top: 37px;
+}
+.sec-testimonial .content .member .title h1{
+  text-align: left;
+}
+.sec-testimonial .content .member .arrow-left ul li p.text{
+  right: -22px;
+}
+.sec-pontential .part-one .heading h1{
+  font-size: 26px;
+}
+.sec-pontential .part-one .heading h1 span::after, .sec-pontential .part-one .heading h1 span::before{
+  width: 24px;
+  height: 10px;
+}
+.sec-pontential .part-one .dsc{
+  padding: 10px 20px;
+  margin:0;
+}
+.sec-pontential .part-one .dsc p{
+  font-size: 10px;
+}
+.sec-pontential .part-one .link a{
+  font-size: 18px;
+  padding: 10px 20px;
+}
+.sec-pontential .part-one .link, .sec-pontential .part-two .link{
+  margin: 20px auto 20px auto;
+}
+.sec-pontential .part-two{
+  padding: 20px 0;
+}
+.sec-pontential .part-two .heading{
+  padding: 10px;
+}
+.sec-pontential .part-two .heading h1{
+  font-size: 28px;
+}
+.sec-pontential .part-two .link a{
+  font-size: 20px;
+  padding: 15px 20px;
+  margin: 10px 0;
+}
+.sec-pontential .part-two .dsc{
+  margin: 20px  0;
+}
+.sec-pontential .part-two .dsc p{
+  font-size: 20px;
+}
+/** Footer **/
+.back-to-top{
+  left: 85%;
+  width: 35px;
+  height: 35px;
+}
+.back-to-top span{
+  font-size: 18px;
+  line-height: 32px;
+}
+.footer-top .bg-sec::before{
+  top: 45px;
+}
+.footer-top .bg-sec .part-one{
+  padding: 6px;
+}
+.footer-top .bg-sec .part-two {
+  padding: 40px 0px;
+}
+.footer-top .bg-sec .part-two .content ul li {
+  margin: 8px 0;
+}
+.footer-top .bg-sec .part-one h1{
+  font-size: 30px;
+  margin: 6px 0px;
+}
+.footer-top .bg-sec .part-two .content {
+  min-height: fit-content;
+}
+.footer-top .bg-sec .part-two .content h1{
+  font-size: 22px;
+}
+.sec-footer .footer-btm ul li{
+  margin: 0 10px;
+}
+.footer-top .bg-sec .part-two .content .social{
+  margin: 24px 0px 4px 0px;
+}
+.footer-top .bg-sec .part-two .content .social li a{
+  font-size: 30px;
+}
+.sec-footer .footer-btm ul li a{
+  font-size: 18px;
+}
+
+}
+
+/* 5. Small devices (less than  576px) */
+@media (max-width: 576px) {
+  .topheader h1 {
+    font-size: 18px;
+    line-height: 18px;
+}
+  .navbar::after {
+    display: none;
+}
+.btmheader .bg-btmheader{
+  margin: 0;
+}
+.banner-heading{
+  padding: 50px 0px 0px 0px;
+}
+.banner-heading h1 {
+  font-size: 30px;
+  line-height: 36px;
+  margin: 90px auto 0px auto;
+}
+.banner-start {
+  margin: 50px 0px 100px 0 ;
+}
+.banner-start a {
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+.sec-receive .part-one h1{
+  font-size: 30px;
+}
+.sec-receive .bg-sec{
+  background-size: cover;
+}
+.sec-receive .heading h1{
+  font-size: 28px;
+  line-height: 40px;
+  margin: 20px 10px 0px 10px;
+  text-shadow: 0px 1px 1px #ffcc33;
+}
+.sec-receive .sec-bottom h1{
+  font-size: 26px;
+}
+.sec-year{
+  margin: 0;
+}
+.sec-year .part-one .content-1 ul, .sec-year .part-one .content-2 ul{
+  text-align: left;
+}
+.sec-year .part-one .content-1 ul li a{
+    font-size: 60px; 
+    line-height: 56px;
+}
+.sec-year .part-one .content-1 ul li a span{
+  font-size: 22px;
+  line-height: 22px;
+}
+.sec-year .part-one .content-1 ul li{
+  min-width: 80px;
+}
+.sec-year .part-one .content-2 ul li{
+  width: 100px;
+  height: 100px;
+  min-height: 100px;
+  padding: 24px 0;
+}
+.sec-year .part-one .content-2 ul li a{
+  align-items: center;
+  font-size: 22px;
+  line-height: 24px;
+  margin: 0;
+}
+.sec-year .part-two h1{
+  font-size: 28px;
+}
+.sec-year .part-two a{
+  font-size: 22px;
+  padding: 10px 15px;
+  margin: 15px 20px;
+}
+.sec-year .part-thr ul{
+  padding: 0;
+}
+.sec-year .part-thr ul li{
+  margin: 10px;
+}
+.sec-year .part-thr ul li a{
+  display: block;
+  min-width: 300px;
+}
+.sec-learn2{
+  padding: 20px 0;
+}
+.sec-learn2 .content{
+  padding: 40px 8px ;
+  margin: 10px 15px;
+}
+.sec-learn .part-one h1{
+  font-size: 32px;
+  margin: 10px 0;
+}
+.sec-learn .part-one p{
+  font-size: 18px;
+
+}
+.sec-learn{
+  padding: 60px 0;
+}
+.sec-learn .part-one a, .sec-learn2 .content a{
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+.sec-learn2 .content .text-title .image h1{
+  font-size: 24px;
+  top: 30%;
+}
+.sec-learn2 .content .text-title{
+  margin: 4px 0;
+}
+.sec-support .bg-sec{
+  background-size: cover;
+  background-position: 10% 0%;
+}
+.sec-support .heading h1{
+  font-size: 28px;
+  line-height: 40px;
+  margin: 20px 10px 0px 10px;
+  text-shadow: 0px 1px 1px #fff;
+}
+.sec-support .sec-bottom h1{
+  font-size: 30px;
+}
+.sec-our-mem{
+  background-size: 100% 70%;
+  padding: 30px 0;
+}
+.sec-our-mem .content h1{
+  font-size: 30px;
+  text-align: center;
+}
+.sec-our-mem .content{
+  margin: 15px 0;
+  text-align: center;
+}
+.sec-our-mem .content a{
+  font-size: 20px;
+  padding: 10px 60px;
+}
+.btmheader .breadcrum .bread-title h1{
+  font-size: 30px;
+}
+.btmheader .breadcrum .bread-list li , .btmheader .breadcrum .bread-list li a{
+  font-size: 12px;
+}
+.sec-become-member .part-one h1{
+  font-size: 24px;
+}
+.sec-become-member .part-two .list{
+  padding: 15px 40px;
+}
+.sec-become-member .part-two .list li{
+  font-size: 20px;
+}
+.sec-become-member .link a{
+  font-size: 20px;
+  padding: 15px 20px;
+}
+.sec-become-member .part-thr form .form-group label{
+  text-align: left;
+}
+.sec-become-member .part-thr form button{
+  font-size: 20px;
+  margin: 10px 0;
+}
+.sec-level .part-two .card .card-body .card-title{
+  font-size: 20px;
+  padding: 20px 10px;
+}
+.sec-level .part-two .card .card-body .card-text{
+  font-size: 14px;
+}
+.sec-level .part-two .card .card-body button{
+  font-size: 14px;
+}
+.sec-level .part-two .card .card-body ul a, .sec-level .part-two .card .card-body ul span{
+  font: 18px;
+}
+.sec-level .part-two .card .card-body ul li{
+  margin: 2px 4px 20px 4px;
+}
+.sec-find-1 .part-one h1{
+  font-size: 20px;
+}
+.sec-find-1 form .form-group label{
+  font-size: 18px;
+}
+.sec-find-1 form .form-group .form-control{
+  height: 50px;
+  font-size: 18px;
+}
+.sec-find-1 form .form-group button{
+  font-size: 20px;
+  padding: 6px 15px;
+  margin: 10px 0 0px 0px;
+}
+.sec-find-1 form .form-group{
+  margin: 10px auto 20px auto;
+}
+.sec-find-1 .part-two a{
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+.sec-find-2 .part-one h1, .sec-find-2 .part-two h1{
+  font-size: 24px;
+  margin: 15px 4px;
+}
+.sec-find-2 .part-one a, .sec-find-2 .part-two a{
+  font-size: 20px;
+  padding: 10px 20px;
+  min-width: 300px;
+  margin: 10px;
+}
+.policies .heading{
+  padding: 20px 0;
+}
+.policies .heading h1{
+  font-size: 22px;
+}
+.policies .dsc{
+  padding: 20px 30px;
+  margin: 0 0 20px 0;
+}
+.policies .dsc p{
+  font-size: 18px;
+}
+.policies .link a{
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 10px;
+  min-width: 320px;
+}
+.careers-banner .banner-title h1{
+  font-size: 20px;
+}
+.careers-banner .banner-dsc{
+  margin: 10px 0;
+}
+.careers-banner .banner-dsc p{
+  background: #f3c629bf;
+  font-size: 18px;
+  padding: 20px 30px;
+  box-shadow: 1px 0px 20px #00000075;
+}
+.careers-banner .banner{
+  background-position: 40% 100%;
+  padding: 100px 0px !important;
+}
+.sec-joinus .part-two .content .title{
+  margin: 20px 0 28px 0;
+}
+.sec-joinus .part-one .heading h1{
+  font-size: 30px;
+}
+.sec-joinus .part-two{
+  margin: 0;
+}
+.sec-joinus .part-two .content{
+  padding: 20px 24px;
+}
+.sec-joinus .part-two .content .title h1{
+  font-size: 26px;
+}
+.sec-joinus .part-two .content .title p{
+  font-size: 18px;
+}
+.sec-joinus .part-two .content .sub-title h1{
+  font-size: 24px;
+}
+.sec-joinus .part-two .content .sub-title {
+  margin: 10px 0 24px 0;
+}
+.sec-joinus .part-two .content ul.list li{
+  font-size: 26px;
+}
+.sec-joinus .part-two .content .link a, .sec-joinus .part-thr .link a{
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+.sec-joinus .part-thr .heading h1{
+  font-size: 22px;
+}
+.sec-joinus .part-thr .box{
+  margin: 10px 40px;
+}
+.sec-joinus .part-thr .box h2 {
+  font-size: 20px;
+}
+.sec-joinus .part-thr .dsc{
+  padding: 20px 15px;
+  margin: 20px 40px;
+}
+.sec-joinus .part-thr .dsc p{
+  font-size: 16px;
+  line-height: 26px;
+}
+.sec-joinus .part-two .content .link, .sec-joinus .part-thr .link{
+  margin: 10px 0 0 0;
+
+}
+.sec-level .part-one .title h3{
+
+  min-height: fit-content;
+
+}
+.sec-exprt-train .content .heading h1{
+  font-size: 22px;
+}
+.sec-exprt-train .content .sub-heading{
+  padding: 15px;
+  margin: 30px 40px;
+}
+.sec-exprt-train .content .sub-heading h1{
+  font-size: 20px;
+}
+.sec-exprt-train .content .title h1{
+  font-size: 50px;
+  line-height: 40px;
+}
+.sec-exprt-train .content .dsc{
+  padding: 10px 0px;
+  margin: 0 20px;
+}
+.sec-exprt-train .content .dsc p{
+  font-size: 22px;
+  font-size: 22px;
+}
+.sec-exprt-train .content a{
+  font-size: 20px; 
+}
+.sec-mission .part-one .heading h1{
+  font-size: 22px;
+  line-height: 30px;
+}
+.sec-mission .part-one .text{
+  padding: 8px 30px;
+}
+.sec-mission .part-one .text p {
+  font-size: 18px;
+  line-height: 26px;
+}
+.sec-mission .part-two{
+  padding: 90px 0;
+  background-position: 22% 100%;
+}
+.sec-mission .part-one a{
+  font-size: 20px;
+  padding: 10px 30px;
+  margin: 10px 0px;
+}
+.sec-mission .part-two .heading h1{
+  font-size: 24px;
+  line-height: 26px;
+  text-shadow: 0px 1px 2px #fff;
+}
+.sec-mission .part-two .dsc{
+  padding: 10px 20px;
+}
+.sec-mission .part-thr{
+  margin: 20px 0;
+}
+.sec-mission .part-two .dsc p{
+  font-size: 20px;
+  line-height: 26px;
+}
+.sec-mission .part-two .dsc{
+  background: #0b4c41a3;
+
+}
+.sec-mission .part-thr a{
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 6px 0px 20px 0;
+}
+.sec-mission .part-thr h2{
+  font-size: 20px;
+  line-height: 24px;
+}
+.btmheader .breadcrum .bread-title h1 span::after {
+  position: absolute;
+  width: 40px;
+  height: 79px;
+  top: 0px;
+}
+.online-banner .banner{
+  padding: 60px 0px;
+  background-position: 92% 0%;
+}
+.online-banner .banner-heading h1{
+  font-size: 24px;
+  text-shadow: 1px 0px 2px #ffc324;
+}
+.online-banner .banner-dsc{
+  margin: 30px 2%;
+}
+.online-banner .banner-dsc p{
+  background: #f3c629bf;
+  padding: 20px ;
+  border-radius: 5px;
+  font-size: 20px;
+  box-shadow: 1px 0px 20px #00000075;
+}
+.sec-plan .part-one .title h1, .sec-plan .part-two .title h1{
+  font-size: 36px;
+}
+.sec-plan .part-one .sub-title h1, .sec-plan .part-two .sub-title h1{
+  font-size: 18px;
+}
+.sec-plan .part-two .title h1{
+  line-height: 28px;
+}
+.sec-plan .part-thr{
+  margin: 15px 5px;
+}
+.sec-plan .part-thr .card .card-title{
+  font-size: 20px;
+  margin: 0 0 4px 0;
+}
+.sec-plan .part-thr .card .card-text p{
+  font-size: 20px;
+}
+.sec-plan .part-thr .card .card-text ul li.price{
+  font-size: 34px;
+}
+.sec-plan .part-thr .card .card-body{
+  margin: 0 30px;
+}
+.sec-plan .part-thr .card .card-body .trans-mobile{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+  animation-name: fadeInDown ;
+  animation-iteration-count: infinite;
+  animation-duration: 1.8s;
+}
+.sec-plan .part-thr a{
+  font-size: 20px;
+  padding: 4px 10px;
+  margin: 10px 5px;
+}
+.sec-plan table tbody tr th, .sec-plan table tbody tr td{
+  padding: 5px 8px;
+}
+.sec-plan table tbody tr th{
+  font-size: 12px;
+  white-space: break-spaces;
+}
+.sec-plan table tbody tr th a{
+  font-size: 14px;
+  line-height: 14px;
+}
+.sec-plan table tbody tr td img{
+  width: 24px;
+}
+.sec-plan table tfoot tr td{
+  padding: 0px;
+}
+.sec-plan table tfoot tr td a{
+  font-size: 12px;
+  padding: 8px 2px;
+  margin:0;
+}
+.sec-essen-plan .title h1 , .sec-adv-plan .title h1 , .sec-cmplt-plan .title h1 , .sec-find-more .heading h1{
+  font-size: 26px;
+}
+.sec-essen-plan .content .row , .sec-adv-plan .content .row , .sec-cmplt-plan .content .row{
+  padding: 0px;
+}
+.sec-essen-plan .content .icon , .sec-adv-plan .content .icon , .sec-cmplt-plan .content .icon{
+  min-height: 100px;
+}
+.sec-essen-plan .content .icon img , .sec-adv-plan .content .icon img{
+  width: 50px;
+}
+.sec-essen-plan .content .title , .sec-adv-plan .content .title , .sec-cmplt-plan .content .title{
+  padding: 8px;
+}
+.sec-essen-plan .content .title h3 , .sec-adv-plan .content .title h3 , .sec-cmplt-plan .content .title h3{
+  font-size: 14px;
+  margin: 0;
+}
+.sec-find-more .link a{
+  font-size: 22px;
+  padding: 10px 15px;
+  display: inline-block;
+  min-width: 230px;
+}
+.sec-find-more .sec-img{
+  background-position: 84% 100%;
+}
+.sec-find-more .ask-qus .heading{
+  padding: 20px 0;
+}
+.sec-find-more .ask-qus .heading h1{
+  font-size: 26px;
+}
+.sec-find-more .ask-qus .content{
+  padding: 10px 0;
+  margin: 10px 0;
+  min-height: 100px;
+
+}
+.sec-find-more .ask-qus .content h3{
+  font-size: 20px;
+}
+.sec-find-more .ask-qus .btm-heading{
+  padding: 20px 0;
+  margin: 20px 0;
+}
+.sec-find-more .ask-qus .btm-heading h1{
+  font-size: 26px;
+}
+.sec-find-more .link a{
+  font-size: 18px;
+}
+.tuition-banner .banner{
+  padding: 60px 0;
+  background-position: 10% 100%;
+}
+.tuition-banner .banner-dsc p{
+  background: #f3c629bf;
+  font-size: 18px;
+  box-shadow: 1px 0px 20px #00000075;
+}
+.sec-choose .part-one .title h1 , .sec-help .heading h1{
+  font-size: 34px;
+}
+.sec-choose .part-two .title h1{
+  font-size: 50px;
+  line-height: 40px;
+}
+.sec-choose .part-two .dsc{
+  padding: 10px 20px;
+  min-height: fit-content;
+}
+.sec-choose .part-two .dsc p{
+  font-size: 22px;
+  line-height: 26px;
+  padding: 0px 30px;
+}
+.sec-choose .part-two a{
+  font-size: 20px;
+  padding: 10px 20px;
+  margin:10px 0px 30px 0px;
+}
+.sec-choose .part-thr .title{
+  padding: 15px 10px;
+}
+.sec-choose .part-thr .title h1{
+  font-size: 22px;
+  line-height: 26px;
+}
+.sec-choose .part-thr .content{
+  padding: 10px;
+  margin: 15px 0px;
+  min-height: fit-content;
+}
+.sec-choose .part-thr .content .price{
+  font-size: 34px;
+}
+.sec-choose .part-thr .content p{
+  font-size: 18px;
+}
+.sec-help .content{
+  padding: 20px;
+}
+.sec-help .content p{
+  font-size: 18px;
+}
+.sec-help .content ul{
+  padding: 10px 50px;
+}
+.sec-help .content ul li{
+  font-size: 18px;
+  line-height: 22px;
+}
+.sec-help .box{
+  margin: 20px 0px;
+  padding: 10px 15px;
+}
+.sec-help .box .content{
+  padding: 10px;
+}
+.sec-help .box .content p{
+  font-size: 24px;
+}
+.sec-help .box .content .num{
+  font-size: 50px;
+}
+.sec-question .heading{
+  margin: 20px 0;
+}
+.sec-question .heading h1{
+  font-size: 28px;
+  line-height: 36px;
+}
+.sec-question .content .ques{
+  padding: 15px 20px;
+  min-height: fit-content;
+}
+.sec-question .content .ques h2{
+  font-size: 20px;
+}
+.sec-question .content .link a{
+  font-size: 16px;
+  padding: 8px 15px;
+}
+.sec-question .content .link{
+  margin: 10px 0;
+}
+.sec-question .dsc{
+  padding: 10px 20px;
+}
+.sec-question .dsc p{
+  font-size: 20px;
+}
+.sec-question a.bg-red{
+  font-size: 22px;
+  padding: 8px 15px;
+}
+.sec-volunteer .sec-img{
+  height: 350px;
+}
+.sec-volunteer .sec-img h1{
+  font-size: 40px;
+}
+.sec-volunteer .sec-img h1{
+  display: block;
+  margin: 100px 20px 10px 20px;
+  text-shadow: 1px 2px 3px #ffc324;
+
+}
+.sec-volunteer .text-1 p, .sec-volunteer .text-2 p{
+  font-size: 20px;
+}
+.sec-volunteer .bg-green h1, .sec-volunteer .bg-green h2{
+  font-size: 30px;
+}
+.sec-volunteer .link{
+  padding: 40px 0px;
+}
+.sec-volunteer .link a{
+  font-size: 18px;
+  padding: 8px 6px;
+}
+.sec-blog .heading{
+  padding: 10px 20px;
+}
+.sec-blog .heading h1{
+  font-size: 26px;
+}
+.sec-blog .dsc{
+  padding: 20px;
+  margin: 15px 0 ;
+}
+.sec-blog .dsc p{
+  font-size: 20px;
+}
+.sec-blog .link a , .sec-consul .part-one a{
+  display: block;
+  font-size: 20px;
+  padding: 8px 20px;
+  margin: 10px 0;
+}
+.sec-blog .card{
+  padding: 10px 20px;
+  margin: 20px 4px;
+}
+.sec-blog .card .card-body .card-title{
+  font-size: 18px;
+
+}
+.sec-blog .card .card-body .card-date , .sec-blog .card .card-body .card-text{
+  font-size: 16px;
+  margin: 4px 0;
+}
+.sec-blog .card .card-footer a{
+  font-size: 14px;
+  padding: 6px 15px;
+}
+.sec-blog .card .card-footer{
+  margin-bottom: -36px;
+}
+.sec-blog .social li{
+  margin: 8px 4px;
+}
+.sec-blog .social li a{
+  font-size: 36px;
+}
+.sec-consul .part-one h1{
+  font-size: 26px;
+  margin: 15px 4px;
+}
+.sec-consul .part-one p{
+  font-size: 20px;
+  margin: 14px 4px;
+}
+.sec-ph-tv .heading{
+  padding: 10px 2px;
+}
+.sec-ph-tv .ph-video::after{
+  width: 40px;
+  height: 50px;
+}
+.sec-ph-tv .heading h1{
+  font-size: 26px;
+}
+.sec-ph-tv .text{
+  margin: 35px 0 6px 0;
+}
+.sec-ph-tv .text p{
+  font-size: 16px;
+}
+.sec-faq .part-one .title h1{
+  font-size: 26px;
+}
+.sec-faq .part-one .sub-title h2{
+  font-size: 22px;
+}
+.sec-faq .part-one .tabs-list ul{
+  padding: 20px 50px;
+  text-align: center;
+}
+.sec-faq .part-one .tabs-list ul li a{
+  font-size: 20px;
+  padding: 30px 20px;
+  min-width: 300px;
+}
+.sec-faq .tab-content .bg-green .heading{
+  padding: 10px;
+  
+}
+.sec-faq .tab-content .bg-green .heading h3{
+  font-size: 26px;
+  line-height: 28px;
+  margin: 10px 19px;
+}
+.sec-faq .tab-content .content .heading h1{
+  font-size: 26px;
+}
+.sec-faq .tab-content .content .card .card-header{
+  font-size: 22px;
+  padding: 15px 20px;
+}
+.sec-faq .tab-content .content .card .card-body{
+  padding: 10px 30px;
+}
+.sec-faq .tab-content .content .card .card-text{
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.sec-faq .tab-content .content .link{
+  text-align: center;
+  margin: 0 0 30px 0 ;
+}
+.sec-faq .tab-content .content .link a{
+  font-size: 16px;
+  padding: 8px 15px;
+}
+.sec-faq .tab-content .content .card .card-body ol{
+  padding:  0 15px;
+  text-align: left;
+}
+.choose-us-banner .banner{
+  background-position: 90% 100%;
+  padding: 40px 0;
+}
+.choose-us-banner .banner-dsc{
+  margin: 40px auto;
+}
+.choose-us-banner .banner-dsc p{
+  background: #f3c62980;
+  box-shadow: 1px 0px 11px #00000075;
+  text-shadow: 1px 0px 1px #424242;
+  font-size: 18px;
+  padding: 20px 15px;
+}
+.sec-info .bg-green{
+  padding: 15px;
+}
+.sec-info .part-one{
+  padding: 20px 0;
+}
+.sec-info .part-one ul.list-trian li{
+  width:140px ;
+  height: 120px;
+  margin: 0 -33px;
+}
+.sec-info .part-one ul.list-trian li p{
+  font-size: 16px;
+  bottom: 0px;
+}
+.sec-info .part-one ul.list-info{
+  padding: 0 0px 0 50px;
+}
+.sec-info .part-one ul.list-info li{
+  font-size: 18px;
+  line-height: 26px;
+}
+.sec-info .part-two h1{
+  font-size: 26px;
+}
+.sec-info .part-thr .title h1{
+  font-size: 30px;
+}
+.sec-info .part-thr .bg-sec{
+  background-position: center bottom;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.sec-info .part-thr .bg-sec h1{
+  font-size: 40px;
+  text-shadow: 1px 1px 4px #0b4c41;
+}
+.sec-story .part-one .heading h1{
+  font-size: 34px;
+}
+.sec-story .dsc{
+  padding: 15px 25px;
+}
+.sec-story .dsc p{
+  font-size: 18px;
+}
+.sec-story .history{
+  margin: 20px 0;
+}
+.sec-story .story-flow{
+  height: 375px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 30px 0;
+}
+.sec-story .story-flow .heading{
+  margin: 0;
+}
+.sec-story .story-flow .heading h1{
+  font-size: 24px;
+}
+.sec-story .story-flow .tringle-top p, .sec-story .story-flow .tringle-right p, .sec-story .story-flow .tringle-btm p, .sec-story .story-flow .tringle-left p{
+  font-size: 14px;
+}
+.sec-story .story-flow .tringle-top p{
+  top: -60px;
+  white-space: pre-line;
+}
+.sec-story .story-flow .tringle-btm p{
+  top: 14px;
+  white-space: pre-line;
+}
+.sec-story .story-flow .tringle-right p{
+  top: -95px;
+  white-space: pre-line;
+  right: 11px;
+}
+.sec-story .story-flow .tringle-left p{
+  top: 45px;
+  right: 252px;
+  left: 0;
+}
+.sec-our-founder .bg-green{
+  padding: 15px;
+}
+.sec-our-founder .bg-white{
+  padding: 20px;
+}
+.sec-our-founder .bg-white .part-one h1{
+  font-size: 36px;
+  line-height: 36px;
+}
+.sec-our-founder .bg-white .part-one p{
+  display: block;
+  text-align: left;
+  font-size: 26px;
+  margin: 6px;
+}
+.sec-our-founder .bg-white .part-one .dsc{
+  padding: 20px;
+  margin: 10px 0;
+}
+.sec-our-founder .bg-white .part-one .dsc p {
+  font-size: 18px;
+}
+.sec-our-founder .bg-white .part-one ol{
+  padding-left: 30px;
+  margin: 30px 0;
+}
+.sec-our-founder .bg-white .part-one ol li p, .sec-our-founder .bg-white .part-one ol p{
+  font-size: 20px;
+}
+.sec-our-founder .bg-white .part-one ol .text{
+  font-size: 24px;
+}
+.sec-our-founder .bg-white .part-one .btm-heading h1{
+  font-size: 30px;
+  line-height: 36px;
+}
+.sec-team .part-one .heading h1{
+  font-size: 36px;
+}
+.sec-team .part-one .sub-haeding h2{
+  font-size: 22px;
+  line-height: 30px;
+}
+.sec-team .part-one .sub-haeding {
+  padding: 20px 0 0px 0;
+}
+.sec-team .part-one .dsc {
+  padding: 15px 10px;
+  margin: 15px 10px;
+  min-height: fit-content;
+}
+.sec-team .part-one .dsc p{
+  font-size: 18px;
+}
+.sec-team .part-two .team-content{
+  margin: 10px 0;
+  padding: 10px;
+}
+.sec-team .part-two .team-content .team-member{
+  min-height: fit-content;
+}
+.sec-team .part-thr .heading{
+  padding: 10px 20px;
+}
+.sec-team .part-thr .heading h1{
+  font-size: 18px;
+  margin:0;
+}
+.sec-team .part-thr a{
+  font-size: 20px;
+  padding: 10px 30px;
+}
+.sec-testimonial{
+  padding: 10px 20px;
+}
+.sec-testimonial .content .parent , .sec-testimonial .content .member{
+  margin: 0;
+}
+.sec-testimonial .content .line{
+  display: none;
+  visibility: hidden;
+}
+.sec-testimonial .content .parent .title h1, .sec-testimonial .content .member .title h1{
+  font-size: 22px;
+}
+.sec-testimonial .content .parent .arrow-right ul li p.text, .sec-testimonial .content .parent .arrow-right ul li p.number, .sec-testimonial .content .member .arrow-left ul li p.text, .sec-testimonial .content .member .arrow-left ul li p.number{
+  bottom: 24px;
+}
+.sec-testimonial .content .parent .arrow-right ul li p.text , .sec-testimonial .content .member .arrow-left ul li p.text{
+  width: 90%;
+}
+.sec-testimonial .content .parent .arrow-right ul li p.number , .sec-testimonial .content .member .arrow-left ul li p.number{
+  top: 37px;
+}
+.sec-testimonial .content .member .title h1{
+  text-align: left;
+}
+.sec-testimonial .content .member .arrow-left ul li p.text{
+  right: -22px;
+}
+.sec-pontential .part-one .heading h1{
+  font-size: 22px;
+}
+.sec-pontential .part-one .heading h1 span::after, .sec-pontential .part-one .heading h1 span::before{
+  width: 20px;
+  height: 8px;
+}
+.sec-pontential .part-one .dsc{
+  padding: 10px 20px;
+  margin:0;
+}
+.sec-pontential .part-one .dsc p{
+  font-size: 18px;
+}
+.sec-pontential .part-one .link a{
+  font-size: 18px;
+  padding: 10px 20px;
+}
+.sec-pontential .part-one .link, .sec-pontential .part-two .link{
+  margin: 10px auto 20px auto;
+}
+.sec-pontential .part-two{
+  padding: 20px 0;
+}
+.sec-pontential .part-two .heading{
+  padding: 10px;
+}
+.sec-pontential .part-two .heading h1{
+  font-size: 26px;
+}
+.sec-pontential .part-two .link a{
+  font-size: 20px;
+  padding: 15px 20px;
+  margin: 10px 0;
+}
+.sec-pontential .part-two .dsc{
+  margin: 20px  0;
+}
+.sec-pontential .part-two .dsc p{
+  font-size: 20px;
+}
+/** Footer **/
+.back-to-top{
+  left: 85%;
+  width: 35px;
+  height: 35px;
+}
+.back-to-top span{
+  font-size: 18px;
+  line-height: 32px;
+}
+.footer-top .bg-sec::before{
+  top: 75px;
+}
+.footer-top .bg-sec .part-one{
+  padding: 6px;
+}
+.footer-top .bg-sec .part-two {
+  padding: 40px 0px;
+}
+.footer-top .bg-sec .part-two .content ul li {
+  margin: 8px 0;
+}
+.footer-top .bg-sec .part-one h1{
+  font-size: 30px;
+  margin: 6px 0px;
+}
+.sec-footer .footer-btm ul li{
+  margin: 0 10px;
+}
+.sec-footer .footer-btm ul li a{
+  font-size: 18px;
+}
+.modal-dialog{
+  margin: 80px 10px;
+}
+}
